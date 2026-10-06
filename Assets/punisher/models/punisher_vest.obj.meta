@@ -7,6 +7,91 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Holster
+    second: {fileID: 2100000, guid: 0167439d95d9cf6419263387d8670411, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: biker_manager_eyeball_l
+    second: {fileID: 2100000, guid: 6ce751cc64c22c1498a111fb43209a18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: biker_manager_eyeball_r
+    second: {fileID: 2100000, guid: 6ce751cc64c22c1498a111fb43209a18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: francis_body_color
+    second: {fileID: 2100000, guid: 476cf877cff7f0f4c94ea7feea0d95f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair
+    second: {fileID: 2100000, guid: b1e4abe6ab91dda4bb9a2f16b380cf06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hairback_bm
+    second: {fileID: 2100000, guid: 5f28104066cf8e640ba2ed3f600ffe66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hairback_trans
+    second: {fileID: 2100000, guid: 5f28104066cf8e640ba2ed3f600ffe66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hairup_bm
+    second: {fileID: 2100000, guid: b8a41b0fc8078a14198297ef07506a6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hairup_trans
+    second: {fileID: 2100000, guid: b8a41b0fc8078a14198297ef07506a6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: punisher_belt
+    second: {fileID: 2100000, guid: 98efb4f7f0c468043a342c2d06ae8127, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: punisher_belt_NONE
+    second: {fileID: 2100000, guid: 98efb4f7f0c468043a342c2d06ae8127, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: punisher_eyelash
+    second: {fileID: 2100000, guid: 53f3009dc79803c4ebab667300b41d7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: punisher_head
+    second: {fileID: 2100000, guid: 4d50715e25a67b1429bdb4be6996350d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: punisher_shirt
+    second: {fileID: 2100000, guid: 8a10ffd13ea806a46a951f0431187fd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: punisher_teeth
+    second: {fileID: 2100000, guid: 8ffb294783c2c6b4392b0a01b6b1aa5a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: punisher_tongue
+    second: {fileID: 2100000, guid: 63d79724120423b4aa5e369dfbc336d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: punisher_tools
+    second: {fileID: 2100000, guid: 788519790f28dd34ba5659de36802012, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: punisher_vest
     second: {fileID: 2100000, guid: adf7ef4938dc080428f8c4e7b93ff467, type: 2}
   materials:
