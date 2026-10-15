@@ -700,7 +700,7 @@ MonoBehaviour:
   controller: {fileID: 1366272837}
   animator: {fileID: 1814250019}
   cameraTransform: {fileID: 330585546}
-  walkSpeed: 1.5
+  walkSpeed: 1.15
   acceleration: 6
   deceleration: 4
   rotationSpeed: 10
@@ -882,6 +882,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 675af592f32c14344b2cc1c2e087f142, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 9995303eac2a53246800d4b29d7bc899, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: 9995303eac2a53246800d4b29d7bc899, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
