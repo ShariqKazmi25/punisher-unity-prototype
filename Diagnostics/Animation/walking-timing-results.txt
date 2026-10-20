@@ -1,0 +1,14 @@
+Saved five-node controller copy + transition-synchronized, eased walking and running ramps.
+30 fps: speed after first 0.15s of sprint=0.758, full speed=4.5; transition timing overrides stale Inspector values.
+30 fps: interrupted walking-stop restart speed 1.4368 -> 1.4479, active blend duration=0.9851993
+30 fps: walking ease-in, 0.25s start, 2.584s offset-adjusted stop, 0.985s restart without losing momentum, repeated W taps, and manual fallback passed.
+30 fps: all 15 starting-state/input combinations, quick release/restart, run-to-walk, walk-stop-to-run, idle, disable reset, gradual run-start and run-to-walk, and full-clip braking passed.
+60 fps: speed after first 0.15s of sprint=0.617, full speed=4.5; transition timing overrides stale Inspector values.
+60 fps: interrupted walking-stop restart speed 1.4451 -> 1.4534, active blend duration=0.9851993
+60 fps: walking ease-in, 0.25s start, 2.584s offset-adjusted stop, 0.985s restart without losing momentum, repeated W taps, and manual fallback passed.
+60 fps: all 15 starting-state/input combinations, quick release/restart, run-to-walk, walk-stop-to-run, idle, disable reset, gradual run-start and run-to-walk, and full-clip braking passed.
+144 fps: speed after first 0.15s of sprint=0.676, full speed=4.5; transition timing overrides stale Inspector values.
+144 fps: interrupted walking-stop restart speed 1.4437 -> 1.4524, active blend duration=0.9851993
+144 fps: walking ease-in, 0.25s start, 2.584s offset-adjusted stop, 0.985s restart without losing momentum, repeated W taps, and manual fallback passed.
+144 fps: all 15 starting-state/input combinations, quick release/restart, run-to-walk, walk-stop-to-run, idle, disable reset, gradual run-start and run-to-walk, and full-clip braking passed.
+PASS. Gameplay Animator unchanged; keyboard focus and full-scene visuals require Play Mode review.

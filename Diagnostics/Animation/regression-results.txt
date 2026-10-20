@@ -1,0 +1,13 @@
+direct walk controller avatar=True
+clip Rifle Idle length=8.566668
+clip Rifle Walk length=1.466667
+clip Rifle Walk To Stop length=3.666667
+idle: Rifle Idle time=0.233463 transition=False leg motion=0
+first hold: Rifle Walk time=4.079562 transition=False leg motion=617.8793
+release: Rifle Idle time=0.4123595 transition=False leg motion=142.0688
+quick press: Rifle Idle time=0.4318148 transition=True leg motion=12.51757
+quick release: Rifle Idle time=0.4123595 transition=False leg motion=118.3698
+second hold: Rifle Walk time=4.079562 transition=False leg motion=618.2237
+brief stop: Rifle Walk time=4.193197 transition=True leg motion=26.91225
+restart during stop: Rifle Walk time=4.079562 transition=False leg motion=601.2233
+final idle: Rifle Idle time=0.4123595 transition=False leg motion=142.0688

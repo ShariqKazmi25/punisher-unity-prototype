@@ -1,0 +1,5 @@
+Saved five-node controller copy + actual updated movement script.
+30 fps: all 15 starting-state/input combinations, quick release/restart, run-to-walk, walk-stop-to-run, idle, and disable reset passed.
+60 fps: all 15 starting-state/input combinations, quick release/restart, run-to-walk, walk-stop-to-run, idle, and disable reset passed.
+144 fps: all 15 starting-state/input combinations, quick release/restart, run-to-walk, walk-stop-to-run, idle, and disable reset passed.
+PASS. Gameplay Animator unchanged; keyboard focus and full-scene visuals require Play Mode review.

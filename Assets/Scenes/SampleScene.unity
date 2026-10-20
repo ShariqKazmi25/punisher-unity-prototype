@@ -454,8 +454,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.9973139, z: 1}
+  m_Center: {x: 0, y: -0.0013430835, z: 0}
 --- !u!23 &627200875
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -700,12 +700,22 @@ MonoBehaviour:
   controller: {fileID: 1366272837}
   animator: {fileID: 1814250019}
   cameraTransform: {fileID: 330585546}
-  walkSpeed: 1.15
-  acceleration: 6
-  deceleration: 4
+  walkSpeed: 1.5
+  runSpeed: 4.5
   rotationSpeed: 10
+  accelerationTime: 0.28
+  stoppingTime: 0.5
+  runAccelerationTime: 0.6
+  runStoppingTime: 0.6
+  walkToRunTime: 0.2
+  runToWalkTime: 0.2
+  matchWalkingAnimationTiming: 1
+  walkStopEndNormalizedTime: 0.9318182
+  matchRunAnimationTiming: 1
+  runStopEndNormalizedTime: 0.8770492
   gravity: -9.81
   groundedGravity: -2
+  logAnimationInput: 0
 --- !u!1 &1721578490
 GameObject:
   m_ObjectHideFlags: 0
