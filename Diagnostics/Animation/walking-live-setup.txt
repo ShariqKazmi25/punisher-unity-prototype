@@ -1,0 +1,43 @@
+Captured 2026-10-22T12:46:31; Play Mode=True
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "",
+        "m_EditorClassIdentifier": "Assembly-CSharp::PunisherMovement",
+        "controller": {
+            "instanceID": 0
+        },
+        "animator": {
+            "instanceID": 0
+        },
+        "cameraTransform": {
+            "instanceID": 0
+        },
+        "walkingOnly": true,
+        "useCalibratedWalkingSpeed": true,
+        "calibratedWalkingSpeed": 0.6222000122070313,
+        "walkSpeed": 1.5,
+        "runSpeed": 4.5,
+        "rotationSpeed": 10.0,
+        "accelerationTime": 0.2800000011920929,
+        "stoppingTime": 0.5,
+        "runAccelerationTime": 0.6000000238418579,
+        "runStoppingTime": 0.6000000238418579,
+        "walkToRunTime": 0.20000000298023224,
+        "runToWalkTime": 0.20000000298023224,
+        "matchWalkingAnimationTiming": true,
+        "walkStartEndNormalizedTime": 0.8999999761581421,
+        "walkStopEndNormalizedTime": 0.9318181872367859,
+        "matchRunAnimationTiming": true,
+        "runStopEndNormalizedTime": 0.8770492076873779,
+        "gravity": -9.8100004196167,
+        "groundedGravity": -2.0,
+        "logAnimationInput": false
+    }
+}
+Animator=punisher_vest@Rifle Idle; controller=Assets/punisher/animations/Punisher.controller; rootMotion=False; updateMode=Normal; speed=1; avatar=Assets/punisher/punisher_vest@Rifle Idle.fbx
+Clip=Rifle Idle; path=Assets/punisher/punisher_vest@Rifle Idle.fbx; length=8.566668; looping=True; loopPose=True; bakeXZ=True; bakeRotation=True
+Clip=Start Walking; path=Assets/punisher/animations/punisher_vest@Start Walking.fbx; length=2.4; looping=False; loopPose=False; bakeXZ=False; bakeRotation=False
+Clip=Rifle Walk; path=Assets/punisher/animations/punisher_vest@Rifle Walk.fbx; length=1.533333; looping=True; loopPose=False; bakeXZ=True; bakeRotation=False
+Clip=Rifle Walk To Stop; path=Assets/punisher/animations/punisher_vest@Rifle Walk To Stop.fbx; length=2.783334; looping=False; loopPose=False; bakeXZ=False; bakeRotation=False

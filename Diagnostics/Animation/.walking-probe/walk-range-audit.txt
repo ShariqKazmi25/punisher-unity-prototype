@@ -1,0 +1,45 @@
+Live-equivalent import: Loop Pose OFF, XZ Bake ON, Rotation Bake OFF. 60fps, frames 0..92.
+Metric: endpoint bone rotation RMS (degrees), root-relative position RMS (meters), endpoint velocity mismatch RMS (m/s).
+Original: 0..92, duration=1.5333, angle=23.4963, position=0.04114, velocity=0.8871
+Best endpoint matches (>=30-frame duration):
+13..74, duration=1.0167, angle=0.0000, position=0.00391, velocity=0.0284
+14..75, duration=1.0167, angle=0.0000, position=0.00391, velocity=0.0414
+28..89, duration=1.0167, angle=0.0000, position=0.00402, velocity=0.0432
+19..80, duration=1.0167, angle=0.0000, position=0.00397, velocity=0.0480
+27..88, duration=1.0167, angle=0.0000, position=0.00408, velocity=0.0526
+26..87, duration=1.0167, angle=0.0000, position=0.00413, velocity=0.0488
+8..69, duration=1.0167, angle=0.0000, position=0.00400, velocity=0.0640
+29..90, duration=1.0167, angle=0.0000, position=0.00394, velocity=0.0700
+12..73, duration=1.0167, angle=0.0000, position=0.00391, velocity=0.0732
+5..66, duration=1.0167, angle=0.0000, position=0.00402, velocity=0.0623
+15..76, duration=1.0167, angle=0.0000, position=0.00389, velocity=0.0769
+23..84, duration=1.0167, angle=0.0000, position=0.00394, velocity=0.0726
+6..67, duration=1.0167, angle=0.0000, position=0.00407, velocity=0.0660
+4..65, duration=1.0167, angle=0.0000, position=0.00399, velocity=0.0754
+24..85, duration=1.0167, angle=0.0000, position=0.00399, velocity=0.0763
+3..64, duration=1.0167, angle=0.0000, position=0.00401, velocity=0.0747
+2..63, duration=1.0167, angle=0.0000, position=0.00407, velocity=0.0689
+22..83, duration=1.0167, angle=0.0000, position=0.00395, velocity=0.0819
+21..82, duration=1.0167, angle=0.0000, position=0.00398, velocity=0.0814
+25..86, duration=1.0167, angle=0.0000, position=0.00403, velocity=0.0782
+Best matches retaining frame 0:
+0..61, duration=1.0167, angle=0.0000, position=0.00428, velocity=0.0692
+0..62, duration=1.0333, angle=1.7783, position=0.00883, velocity=0.0297
+0..60, duration=1.0000, angle=1.7051, position=0.00904, velocity=0.1042
+0..59, duration=0.9833, angle=3.5121, position=0.01663, velocity=0.1257
+0..63, duration=1.0500, angle=3.6726, position=0.01652, velocity=0.0501
+0..58, duration=0.9667, angle=5.2410, position=0.02436, velocity=0.1571
+0..64, duration=1.0667, angle=5.5898, position=0.02415, velocity=0.0713
+0..57, duration=0.9500, angle=6.8592, position=0.03200, velocity=0.2107
+Best matches retaining frame 92:
+31..92, duration=1.0167, angle=0.0801, position=0.00382, velocity=0.0559
+30..92, duration=1.0333, angle=1.6344, position=0.00895, velocity=0.0168
+32..92, duration=1.0000, angle=1.8184, position=0.00886, velocity=0.1065
+29..92, duration=1.0500, angle=3.1808, position=0.01670, velocity=0.0706
+33..92, duration=0.9833, angle=3.7788, position=0.01672, velocity=0.1427
+28..92, duration=1.0667, angle=4.6654, position=0.02451, velocity=0.1199
+34..92, duration=0.9667, angle=5.8312, position=0.02476, velocity=0.1895
+27..92, duration=1.0833, angle=6.1705, position=0.03239, velocity=0.1565
+Loop playback verification, 20 seconds at 60 Hz, no Loop Pose:
+0..92: loop boundary angle RMS median=23.9809, ordinary=1.9350; boundary position RMS=0.04244; boundaries=12
+0..61: loop boundary angle RMS median=1.7045, ordinary=1.9381; boundary position RMS=0.00904; boundaries=18

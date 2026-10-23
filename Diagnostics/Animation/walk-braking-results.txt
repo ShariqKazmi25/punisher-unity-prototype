@@ -1,0 +1,25 @@
+State Rifle Idle, speed=1, length=8.566668
+ Rifle Idle -> Start Walking: duration=0.7337027, fixed=True, offset=0.1320505, exit=False
+State Start Walking, speed=1, length=1.433333
+ Start Walking -> Rifle Walk: duration=1.181455, fixed=True, offset=0, exit=False
+ Start Walking -> Rifle Walk To Stop: duration=0.4359355, fixed=True, offset=0.1794266, exit=False
+State Rifle Walk, speed=1, length=1.016667
+ Rifle Walk -> Rifle Walk To Stop: duration=0.4592491, fixed=True, offset=0.1316188, exit=False
+State Rifle Walk To Stop, speed=1, length=2.783334
+ Rifle Walk To Stop -> Rifle Idle: duration=0.25, fixed=True, offset=0, exit=True
+ Rifle Walk To Stop -> Start Walking: duration=0.7311776, fixed=True, offset=0, exit=False
+Walk stop entry time=0.36634s in 2.78333s clip.
+ Stop motion @0.10s after entry: current extracted root speed=0.63405, cumulative travel=0.06542
+ Stop motion @0.20s after entry: current extracted root speed=0.64938, cumulative travel=0.12902
+ Stop motion @0.30s after entry: current extracted root speed=0.72441, cumulative travel=0.19798
+ Stop motion @0.40s after entry: current extracted root speed=0.70037, cumulative travel=0.26947
+ Stop motion @0.50s after entry: current extracted root speed=0.62548, cumulative travel=0.33584
+ Stop motion @0.60s after entry: current extracted root speed=0.50046, cumulative travel=0.39200
+ Stop motion @0.70s after entry: current extracted root speed=0.41425, cumulative travel=0.43645
+ Stop motion @0.80s after entry: current extracted root speed=0.34813, cumulative travel=0.47359
+ Stop motion @0.90s after entry: current extracted root speed=0.28969, cumulative travel=0.50352
+ Stop motion @1.00s after entry: current extracted root speed=0.22989, cumulative travel=0.52625
+30 Hz: start/steady max speed difference=0; old stop=2.2667s/0.70291m; new=0.1000s/0.01550m.
+60 Hz: start/steady max speed difference=0; old stop=2.2500s/0.69799m; new=0.0833s/0.02213m.
+144 Hz: start/steady max speed difference=0; old stop=2.2292s/0.69504m; new=0.0833s/0.02436m.
+PASS. Actual gameplay controller copy; original start/steady speed curves preserved. Visual full-scene confirmation remains necessary.

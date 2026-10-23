@@ -11,14 +11,22 @@ public class PunisherMovement : MonoBehaviour
     public Animator animator;
     public Transform cameraTransform;
 
+    [Header("Walking Only")]
+    [Tooltip("Ignore sprint input while tuning Rifle Idle -> Rifle Walk -> Rifle Walk To Stop.")]
+    public bool walkingOnly = true;
+    [Tooltip("Use the measured in-place walking speed for the new Mixamo clip instead of the old walkSpeed value.")]
+    public bool useCalibratedWalkingSpeed = true;
+    [Tooltip("Initial planted-foot speed estimate for the current Rifle Idle Avatar at its current scale. Retune if model scale or animation playback speed changes.")]
+    [Min(0f)] public float calibratedWalkingSpeed = 0.6222f;
+
     [Header("Movement")]
     [Min(0f)] public float walkSpeed = 1.5f;
     [Min(0f)] public float runSpeed = 4.5f;
     [Min(0f)] public float rotationSpeed = 10f;
     [Tooltip("Fallback walk-start duration when Animator timing is unavailable.")]
     [Min(0f)] public float accelerationTime = 0.25f;
-    [Tooltip("Fallback full walking-stop duration when Animator timing is unavailable.")]
-    [Min(0f)] public float stoppingTime = 2.5843664f;
+    [Tooltip("Fallback walking-stop duration when the Animator or stop-speed profile is unavailable.")]
+    [Min(0f)] public float stoppingTime = 1.25f;
     [Tooltip("Fallback run-start duration when Animator timing is unavailable.")]
     [Min(0f)] public float runAccelerationTime = 0.6006818f;
     [Tooltip("Fallback full-stop duration when Animator timing is unavailable.")]
@@ -31,10 +39,18 @@ public class PunisherMovement : MonoBehaviour
     [Min(0f)] public float runToWalkTime = 0.9270649f;
 
     [Header("Walking Animation Timing")]
-    [Tooltip("Use the active Animator blend duration for walking starts and restarts, and the stop clip's exit point for braking.")]
+    [Tooltip("Match direct walking starts/restarts to their Animator blends, and braking to the stop clip's measured forward motion.")]
     public bool matchWalkingAnimationTiming = true;
-    [Tooltip("Rifle Walk To Stop -> Idle exit time. Stop moving by this point in the braking clip.")]
-    [Range(0f, 1f)] public float walkStopEndNormalizedTime = 0.9318182f;
+    [Tooltip("X: normalized Rifle Walk To Stop clip time. Y: forward speed relative to calibrated walking speed, measured from the current 0..167 clip. Retune if that clip is replaced or trimmed.")]
+    public AnimationCurve walkStopSpeedProfile = new AnimationCurve(
+        new Keyframe(0f, 1f), new Keyframe(0.3f, 1f),
+        new Keyframe(0.325f, 0.9359f), new Keyframe(0.35f, 0.7855f),
+        new Keyframe(0.375f, 0.6911f), new Keyframe(0.4f, 0.6103f),
+        new Keyframe(0.425f, 0.5269f), new Keyframe(0.45f, 0.441f),
+        new Keyframe(0.475f, 0.3471f), new Keyframe(0.5f, 0.2557f),
+        new Keyframe(0.525f, 0.1729f), new Keyframe(0.55f, 0.0966f),
+        new Keyframe(0.575f, 0.0216f), new Keyframe(0.58f, 0f),
+        new Keyframe(1f, 0f));
 
     [Header("Run Animation Timing")]
     [Tooltip("Use the active Animator blend duration for running speed changes. The time fields above are fallbacks.")]
@@ -54,6 +70,7 @@ public class PunisherMovement : MonoBehaviour
     private static readonly int IsRunning = Animator.StringToHash("isrunning");
     private static readonly int RunState = Animator.StringToHash("Rifle Run");
     private static readonly int WalkState = Animator.StringToHash("Rifle Walk");
+    private static readonly int IdleState = Animator.StringToHash("Rifle Idle");
     private static readonly int WalkStopState = Animator.StringToHash("Rifle Walk To Stop");
     private static readonly int RunStopState = Animator.StringToHash("Running To Stop");
     private float currentSpeed;
@@ -73,10 +90,14 @@ public class PunisherMovement : MonoBehaviour
     private Animator validatedAnimator;
     private RuntimeAnimatorController validatedController;
     private MovementState speedState;
+    private bool followingWalkingStop;
+    private float walkStopEntrySpeed;
 
     // This is the requested input state, not the current animation state.
     // A stopping animation may continue after input returns to Idle.
     public MovementState RequestedState { get; private set; }
+    public float EffectiveWalkSpeed => Mathf.Max(0f,
+        walkingOnly && useCalibratedWalkingSpeed ? calibratedWalkingSpeed : walkSpeed);
 
     private void Awake()
     {
@@ -103,6 +124,8 @@ public class PunisherMovement : MonoBehaviour
     {
         RequestedState = MovementState.Idle;
         speedState = MovementState.Idle;
+        followingWalkingStop = false;
+        walkStopEntrySpeed = 0f;
         ConfigureAnimator();
         SetAnimationParameters(RequestedState);
     }
@@ -113,6 +136,7 @@ public class PunisherMovement : MonoBehaviour
         hasRunningParameter = false;
         validatedAnimator = animator;
         validatedController = animator != null ? animator.runtimeAnimatorController : null;
+        followingWalkingStop = false;
         ClearTimingSynchronization();
 
         if (animator == null || animator.runtimeAnimatorController == null)
@@ -140,7 +164,7 @@ public class PunisherMovement : MonoBehaviour
 
         if (!hasWalkingParameter)
             Debug.LogError("The assigned Animator needs a Bool named 'iswalking'.", this);
-        if (!hasRunningParameter)
+        if (!hasRunningParameter && !walkingOnly)
             Debug.LogError("The assigned Animator needs a Bool named 'isrunning'. Add it and save the controller to enable run transitions.", this);
     }
 
@@ -161,7 +185,7 @@ public class PunisherMovement : MonoBehaviour
         if (hasWalkingParameter)
             animator.SetBool(IsWalking, state != MovementState.Idle);
         if (hasRunningParameter)
-            animator.SetBool(IsRunning, state == MovementState.Running);
+            animator.SetBool(IsRunning, !walkingOnly && state == MovementState.Running);
     }
 
     private void Update()
@@ -173,13 +197,12 @@ public class PunisherMovement : MonoBehaviour
 
         Keyboard keyboard = Keyboard.current;
         bool forwardHeld = Application.isFocused && keyboard != null && keyboard.wKey.isPressed;
-        bool sprintHeld = keyboard != null && keyboard.leftShiftKey.isPressed;
+        bool sprintHeld = !walkingOnly && keyboard != null && keyboard.leftShiftKey.isPressed;
         MovementState previousState = RequestedState;
         RequestedState = ResolveMovementState(forwardHeld, sprintHeld);
 
-        // Five animation states: Idle, Walk, Run, Walk To Stop, Running To Stop.
-        // The Animator chooses the stop/restart paths from these two booleans.
-        // Direct walk/run transitions do not need an intermediate start clip.
+        // Walking-only: Idle -> Rifle Walk -> Rifle Walk To Stop -> Idle.
+        // Transitions and interruptions are owned by the Animator.
         SetAnimationParameters(RequestedState);
 
         if (logAnimationInput && RequestedState != previousState)
@@ -230,13 +253,19 @@ public class PunisherMovement : MonoBehaviour
 
     private void UpdateMovementSpeed(MovementState state, float deltaTime)
     {
-        float walkingSpeed = Mathf.Max(0f, walkSpeed);
+        float previousSpeed = currentSpeed;
+        float walkingSpeed = EffectiveWalkSpeed;
         float runningSpeed = Mathf.Max(walkingSpeed, runSpeed);
         float nextTarget = state == MovementState.Running ? runningSpeed
             : state == MovementState.Walking ? walkingSpeed : 0f;
 
         if (state != speedState || nextTarget != targetSpeed)
         {
+            followingWalkingStop = matchWalkingAnimationTiming && state == MovementState.Idle &&
+                speedState == MovementState.Walking && currentSpeed <= walkingSpeed;
+            if (followingWalkingStop)
+                walkStopEntrySpeed = currentSpeed;
+
             float duration;
             if (state == MovementState.Running)
                 duration = speedState == MovementState.Walking ? walkToRunTime : runAccelerationTime;
@@ -259,6 +288,59 @@ public class PunisherMovement : MonoBehaviour
         if (easeSpeedRamp)
             progress = Mathf.SmoothStep(0f, 1f, progress);
         currentSpeed = Mathf.Lerp(rampStartSpeed, targetSpeed, progress);
+
+        // Follow the visible final steps instead of either stopping in 80 ms or
+        // drifting through the clip's later idle settling. Cap at the previous
+        // frame's speed so releasing W can never accelerate the character.
+        if (followingWalkingStop && state == MovementState.Idle && matchWalkingAnimationTiming &&
+            TryGetWalkingStopSpeed(out float stopSpeed))
+            currentSpeed = Mathf.Min(previousSpeed, stopSpeed);
+    }
+
+    private bool TryGetWalkingStopSpeed(out float speed)
+    {
+        speed = 0f;
+        if (animator == null || !animator.isActiveAndEnabled || animator.runtimeAnimatorController == null ||
+            walkStopSpeedProfile == null || walkStopSpeedProfile.length < 2)
+            return false;
+
+        AnimatorStateInfo source = animator.GetCurrentAnimatorStateInfo(0);
+        if (animator.IsInTransition(0))
+        {
+            AnimatorStateInfo destination = animator.GetNextAnimatorStateInfo(0);
+            if (source.shortNameHash != WalkStopState && destination.shortNameHash != WalkStopState)
+                return false;
+            if (!TryGetWalkingStateSpeed(source, out float from) ||
+                !TryGetWalkingStateSpeed(destination, out float to))
+                return false;
+            float weight = Mathf.Clamp01(animator.GetAnimatorTransitionInfo(0).normalizedTime);
+            speed = walkStopEntrySpeed * Mathf.Lerp(from, to, weight);
+            return true;
+        }
+
+        if (source.shortNameHash != WalkStopState && source.shortNameHash != IdleState)
+            return false;
+        if (!TryGetWalkingStateSpeed(source, out float ratio))
+            return false;
+        speed = walkStopEntrySpeed * ratio;
+        return true;
+    }
+
+    private bool TryGetWalkingStateSpeed(AnimatorStateInfo state, out float ratio)
+    {
+        ratio = 0f;
+        if (state.shortNameHash == IdleState)
+            return true;
+        if (state.shortNameHash == WalkState)
+        {
+            ratio = 1f;
+            return true;
+        }
+        if (state.shortNameHash != WalkStopState)
+            return false;
+        float playbackSpeed = Mathf.Max(0f, animator.speed * state.speed * state.speedMultiplier);
+        ratio = Mathf.Clamp01(walkStopSpeedProfile.Evaluate(Mathf.Clamp01(state.normalizedTime)) * playbackSpeed);
+        return true;
     }
 
     private void BeginSpeedRamp(float duration, bool eased)
@@ -290,8 +372,7 @@ public class PunisherMovement : MonoBehaviour
         // rather than requiring the Stop state to become current first.
         bool enteringWalk = matchWalkingAnimationTiming && requested == MovementState.Walking &&
             destination.shortNameHash == WalkState && !fromRunning;
-        bool walkBraking = matchWalkingAnimationTiming && requested == MovementState.Idle && destination.shortNameHash == WalkStopState;
-        if (!enteringRun && !slowingToWalk && !runBraking && !enteringWalk && !walkBraking)
+        if (!enteringRun && !slowingToWalk && !runBraking && !enteringWalk)
             return;
 
         AnimatorTransitionInfo transition = animator.GetAnimatorTransitionInfo(0);
@@ -314,12 +395,9 @@ public class PunisherMovement : MonoBehaviour
             duration *= source.length;
         float remaining = duration * (1f - progress) / animatorSpeed;
 
-        if (runBraking || walkBraking)
+        if (runBraking)
         {
-            // Braking continues beyond the entry blend until the stop clip's
-            // exit point. Include the destination offset/current progress.
-            float endTime = walkBraking ? walkStopEndNormalizedTime : runStopEndNormalizedTime;
-            float stopRemaining = Mathf.Max(0f, endTime - destination.normalizedTime) *
+            float stopRemaining = Mathf.Max(0f, runStopEndNormalizedTime - destination.normalizedTime) *
                 destination.length / animatorSpeed;
             remaining = Mathf.Max(remaining, stopRemaining);
         }
@@ -343,6 +421,8 @@ public class PunisherMovement : MonoBehaviour
         rampDuration = 0f;
         rampElapsed = 0f;
         easeSpeedRamp = false;
+        followingWalkingStop = false;
+        walkStopEntrySpeed = 0f;
         ClearTimingSynchronization();
         speedState = MovementState.Idle;
         RequestedState = MovementState.Idle;

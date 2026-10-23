@@ -1,0 +1,4 @@
+30 Hz, 8 release phases: start/steady max speed difference=0; planted-foot mean drift=0.38438 -> 0.11331 m/s; stop=1.3333..1.3333s; travel=0.5513..0.5513m.
+60 Hz, 8 release phases: start/steady max speed difference=0; planted-foot mean drift=0.37729 -> 0.11495 m/s; stop=1.2833..1.2833s; travel=0.5389..0.5389m.
+144 Hz, 8 release phases: start/steady max speed difference=0; planted-foot mean drift=0.37614 -> 0.11413 m/s; stop=1.2639..1.2639s; travel=0.5307..0.5307m.
+PASS. Pose/translation sampled together with copied three-state graph. No gameplay Animator/imports modified. Full-scene visual confirmation still required.

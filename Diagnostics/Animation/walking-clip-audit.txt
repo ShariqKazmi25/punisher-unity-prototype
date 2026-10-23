@@ -1,0 +1,27 @@
+ORIGINAL Start Walking: rig=Human, avatar=CopyFromOther
+ clip=Start Walking duration=2.4 fps=60 humanoid=True avgVelocity=(0.3419, -0.0296, 0.7789)
+HUMANOID Start Walking
+ clip=Start Walking duration=2.4 fps=60 humanoid=True avgVelocity=(-0.2706, -0.0023, 0.8071)
+ default rotation: rootTravel=(-0.2766, -0.0025, 0.8738) rootYaw=-42.48895 bodyYaw=[-0.08,0.10] hipX=[-0.0082,0.0059] maxFootBackward=0.6397341
+ stance-foot estimate=0.3414729 m/s, samples=119, humanScale=0.449381, rootScale=(1.00, 1.00, 1.00)
+ORIGINAL orientation, rotation/XZ NOT baked: Start Walking
+ original rotation: rootTravel=(0.3832, -0.0025, 0.8325) rootYaw=-42.48895 bodyYaw=[42.20,42.38] hipX=[-0.0127,-0.0005] maxFootBackward=0.5676683
+ stance-foot estimate=0.3088365 m/s, samples=124, humanScale=0.449381, rootScale=(1.00, 1.00, 1.00)
+ORIGINAL Rifle Walk: rig=Human, avatar=CopyFromOther
+ clip=Rifle Walk duration=1.533333 fps=60 humanoid=True avgVelocity=(-0.0201, -0.0056, -0.0003)
+HUMANOID Rifle Walk
+ clip=Rifle Walk duration=1.533333 fps=60 humanoid=True avgVelocity=(-0.0199, -0.0062, 0.0010)
+ default rotation: rootTravel=(-0.0137, -0.0043, 0.0006) rootYaw=1.977412 bodyYaw=[-0.12,-0.06] hipX=[-0.0065,0.0014] maxFootBackward=0.743131
+ stance-foot estimate=0.6221569 m/s, samples=68, humanScale=0.449381, rootScale=(1.00, 1.00, 1.00)
+ORIGINAL orientation, rotation/XZ NOT baked: Rifle Walk
+ original rotation: rootTravel=(-0.0137, -0.0043, 0.0001) rootYaw=1.977412 bodyYaw=[-2.20,-2.15] hipX=[-0.0062,0.0017] maxFootBackward=0.744583
+ stance-foot estimate=0.6223752 m/s, samples=68, humanScale=0.449381, rootScale=(1.00, 1.00, 1.00)
+ORIGINAL Rifle Walk To Stop: rig=Human, avatar=CopyFromOther
+ clip=Rifle Walk To Stop duration=2.783334 fps=60 humanoid=True avgVelocity=(-0.0161, -0.0618, 0.6035)
+HUMANOID Rifle Walk To Stop
+ clip=Rifle Walk To Stop duration=2.783334 fps=60 humanoid=True avgVelocity=(-0.0188, -0.0083, 0.6065)
+ default rotation: rootTravel=(-0.0265, -0.0104, 0.7572) rootYaw=2.183357 bodyYaw=[-0.26,0.01] hipX=[-0.0060,0.0027] maxFootBackward=0.6992877
+ stance-foot estimate=0.4543528 m/s, samples=78, humanScale=0.449381, rootScale=(1.00, 1.00, 1.00)
+ORIGINAL orientation, rotation/XZ NOT baked: Rifle Walk To Stop
+ original rotation: rootTravel=(-0.0219, -0.0104, 0.7574) rootYaw=2.183354 bodyYaw=[0.09,0.36] hipX=[-0.0060,0.0027] maxFootBackward=0.6989908
+ stance-foot estimate=0.4544407 m/s, samples=78, humanScale=0.449381, rootScale=(1.00, 1.00, 1.00)

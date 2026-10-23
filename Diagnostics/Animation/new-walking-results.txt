@@ -1,0 +1,6 @@
+New walking-only script, corrected test-copy imports, four-state fixture. Gameplay Animator/imports were not edited.
+30 fps: gradual start, walk loop, quick restart, and stopping passed.
+60 fps: gradual start, walk loop, quick restart, and stopping passed.
+144 fps: gradual start, walk loop, quick restart, and stopping passed.
+Estimated median planted-foot Z drift: old 1.5 m/s=0.9014 m/s; calibrated .6222 m/s=0.0441 m/s.
+PASS. Full scene, camera turns, blending foot phase, and terrain still need visual review.

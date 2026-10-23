@@ -1,0 +1,28 @@
+Live gameplay trace, 2026-10-22
+Recorded frames: 1787
+Steady Rifle Walk frames: 1570
+Walk normalized-time resets: 0
+Steady walk speed range: Count             : 1570
+Average           : 
+Sum               : 
+Maximum           : 0.6222
+Minimum           : 0.6222
+StandardDeviation : 
+Property          : speed
+Natural loop boundaries: 6
+Boundary bone-angle RMS range: Count             : 6
+Average           : 
+Sum               : 
+Maximum           : 26.4366
+Minimum           : 26.1472
+StandardDeviation : 
+Property          :
+Ordinary bone-angle RMS median: 0.8616145
+Maximum model local Z step: 0
+Controller horizontal speed range: Count             : 1569
+Average           : 
+Sum               : 
+Maximum           : 0.622242526835325
+Minimum           : 0.622161233921666
+StandardDeviation : 
+Property          :

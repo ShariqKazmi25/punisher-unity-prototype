@@ -1,0 +1,4 @@
+Saved controller, continuous iswalking=true for 20 seconds: walk frames=1114, time resets=0, exits after reaching walk=0, loop boundaries=12, final normalizedTime=14.17768
+Imported loop range=0..92, loopTime=True, loopPose=False
+saved settings: boundary bone-angle RMS median=23.9809 deg/frame, ordinary median=1.9350; boundary bone-position RMS median=0.04203m/frame, ordinary median=0.00700; seam count=12
+Loop Pose ON (test copy): boundary bone-angle RMS median=1.7259 deg/frame, ordinary median=2.0537; boundary bone-position RMS median=0.00806m/frame, ordinary median=0.00724; seam count=12
