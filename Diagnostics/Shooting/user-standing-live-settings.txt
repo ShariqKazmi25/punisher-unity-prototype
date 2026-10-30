@@ -1,0 +1,93 @@
+Captured 2026-10-27T19:52:53.1866874+05:00; playing=False; scene=Assets/Scenes/SampleScene.unity
+{
+    "previewAimInSceneView": false,
+    "leftHandGrip": {
+        "instanceID": 1099511663838
+    },
+    "positionWeight": 0.0,
+    "rotationWeight": 0.22599999606609344,
+    "leftElbowHint": {
+        "instanceID": 0
+    },
+    "elbowWeight": 0.5,
+    "followCameraAim": true,
+    "aimBodyWeight": 1.0,
+    "aimHeadWeight": 0.0,
+    "preserveIdleGrip": true,
+    "preserveIdleFingerPose": true,
+    "aimingPositionWeight": 1.0,
+    "aimingRotationWeight": 0.06300000101327896,
+    "shoulderStockWhileAiming": true,
+    "shoulderAnchor": {
+        "instanceID": 25288767476719
+    },
+    "shoulderOffset": {
+        "x": -0.014999999664723873,
+        "y": -0.02500000037252903,
+        "z": 0.054999999701976776
+    },
+    "stockContact": {
+        "instanceID": 0
+    },
+    "ar15StockLocalPosition": {
+        "x": 0.0,
+        "y": 0.4419400095939636,
+        "z": 5.515870094299316
+    },
+    "supportHandSlideBack": 0.017500000074505806,
+    "guideAimingElbows": true,
+    "leftAimElbowHint": {
+        "instanceID": 14293651198963
+    },
+    "rightElbowHint": {
+        "instanceID": 16492674454519
+    },
+    "leftAimElbowOffset": {
+        "x": -0.03999999910593033,
+        "y": -0.14000000059604645,
+        "z": 0.10000000149011612
+    },
+    "rightAimElbowOffset": {
+        "x": 0.07999999821186066,
+        "y": -0.1599999964237213,
+        "z": 0.019999999552965164
+    },
+    "aimingElbowHintWeight": 0.7689999938011169,
+    "minimumLeftElbowBend": 82.0,
+    "maximumLeftElbowBend": 95.0,
+    "minimumRightElbowBend": 9.399999618530273,
+    "maximumRightElbowBend": 127.69999694824219,
+    "weaponTransform": {
+        "instanceID": 1099511663857
+    },
+    "barrelTip": {
+        "instanceID": 0
+    },
+    "createAR15Muzzle": true,
+    "ar15MuzzleLocalPosition": {
+        "x": 0.0005499999970197678,
+        "y": 0.6896399855613708,
+        "z": -5.965469837188721
+    },
+    "localBarrelDirection": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+    },
+    "maxAimCorrection": 25.0,
+    "localHeadForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+    }
+}
+leftHandGrip=./punisher_vest@Rifle Idle/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/WeaponMount/ar15/LeftHandGrip; parent=./punisher_vest@Rifle Idle/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/WeaponMount/ar15; localPosition=(0.0127000, -0.0273000, -0.0048000); localRotation=(0.9709675, 0.0000000, 0.0000000, -0.2392118); localScale=(1.0000000, 1.0000000, 1.0000000)
+shoulderAnchor=./punisher_vest@Rifle Idle/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/StockShoulderTarget; parent=./punisher_vest@Rifle Idle/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2; localPosition=(0.0892000, 0.0973000, 0.0477000); localRotation=(0.0000000, 0.0000000, 0.0000000, 1.0000000); localScale=(1.0000000, 1.0000000, 1.0000000)
+leftAimElbowHint=./punisher_vest@Rifle Idle/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/LeftAimElbowTarget; parent=./punisher_vest@Rifle Idle/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2; localPosition=(-0.0900000, -0.0420000, 0.1010000); localRotation=(0.0000000, 0.0000000, 0.0000000, 1.0000000); localScale=(1.0000000, 1.0000000, 1.0000000)
+rightElbowHint=./punisher_vest@Rifle Idle/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/RightAimElbowTarget; parent=./punisher_vest@Rifle Idle/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2; localPosition=(0.1500000, -0.0690000, 0.0120000); localRotation=(0.0000000, 0.0000000, 0.0000000, 1.0000000); localScale=(1.0000000, 1.0000000, 1.0000000)
+weaponTransform=./punisher_vest@Rifle Idle/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/WeaponMount/ar15; parent=./punisher_vest@Rifle Idle/mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm/mixamorig:RightHand/WeaponMount; localPosition=(-0.0182900, 0.1080100, -0.0020600); localRotation=(-0.4560972, 0.3929990, -0.4901926, -0.6302686); localScale=(0.0250000, 0.0325000, 0.0312500)
+idleGripPosition=(0.00, 0.00, 0.00)
+idleGripRotation=(0.00000, 0.00000, 0.00000, 1.00000)
+hasIdleGrip=False
+Controller=Assets/punisher/animations/Punisher.controller
+Scene dirty=True

@@ -1,0 +1,7 @@
+30fps: standing delta 0m/0deg; hips+legs delta 0m/0deg.
+  Walking chest vs standing before 0.03835846m/5.943276deg; after 5.974999E-08m/0deg. Roll range 7.204055 -> 1.37557deg. Max chest step 0.01215188m.
+60fps: standing delta 0m/0deg; hips+legs delta 0m/0deg.
+  Walking chest vs standing before 0.03866092m/5.958803deg; after 5.974999E-08m/0deg. Roll range 7.232227 -> 1.396749deg. Max chest step 0.00648442m.
+144fps: standing delta 0m/0deg; hips+legs delta 0m/0deg.
+  Walking chest vs standing before 0.03881376m/5.956174deg; after 5.989497E-08m/0deg. Roll range 7.237203 -> 1.407282deg. Max chest step 0.004872325m.
+PASS. Standing pose, hips and legs preserved; moving shoulders stabilized; aim/fire, starts/stops, release and changing aim checked; reference rigs cleaned up.

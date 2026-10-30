@@ -92,6 +92,7 @@ public class PunisherMovement : MonoBehaviour
     private MovementState speedState;
     private bool followingWalkingStop;
     private float walkStopEntrySpeed;
+    private ThirdPersonCameraController shooterCamera;
 
     // This is the requested input state, not the current animation state.
     // A stopping animation may continue after input returns to Idle.
@@ -107,6 +108,7 @@ public class PunisherMovement : MonoBehaviour
             animator = GetComponentInChildren<Animator>();
         if (cameraTransform == null && Camera.main != null)
             cameraTransform = Camera.main.transform;
+        shooterCamera = GetComponentInChildren<ThirdPersonCameraController>();
 
         if (controller == null)
         {
@@ -118,6 +120,8 @@ public class PunisherMovement : MonoBehaviour
         // Do not discard small movement steps while accelerating.
         controller.minMoveDistance = 0f;
         moveDirection = Vector3.ProjectOnPlane(controller.transform.forward, Vector3.up).normalized;
+        if (Application.isPlaying && GetComponent<PunisherShooter>() == null)
+            gameObject.AddComponent<PunisherShooter>();
     }
 
     private void OnEnable()
@@ -196,7 +200,8 @@ public class PunisherMovement : MonoBehaviour
             ConfigureAnimator();
 
         Keyboard keyboard = Keyboard.current;
-        bool forwardHeld = Application.isFocused && keyboard != null && keyboard.wKey.isPressed;
+        bool forwardHeld = Application.isFocused && keyboard != null && keyboard.wKey.isPressed &&
+            (shooterCamera == null || shooterCamera.GameplayInputAvailable);
         bool sprintHeld = !walkingOnly && keyboard != null && keyboard.leftShiftKey.isPressed;
         MovementState previousState = RequestedState;
         RequestedState = ResolveMovementState(forwardHeld, sprintHeld);
@@ -218,7 +223,8 @@ public class PunisherMovement : MonoBehaviour
 
         if (RequestedState != MovementState.Idle)
         {
-            Vector3 forward = cameraTransform != null
+            Vector3 forward = shooterCamera != null && shooterCamera.turnCharacterWithCamera
+                ? shooterCamera.FlatForward : cameraTransform != null
                 ? cameraTransform.forward : controller.transform.forward;
             forward = Vector3.ProjectOnPlane(forward, Vector3.up);
 
@@ -228,7 +234,8 @@ public class PunisherMovement : MonoBehaviour
             if (forward.sqrMagnitude > 0.0001f)
                 moveDirection = forward.normalized;
 
-            if (moveDirection.sqrMagnitude > 0.0001f)
+            if (moveDirection.sqrMagnitude > 0.0001f &&
+                (shooterCamera == null || !shooterCamera.turnCharacterWithCamera))
             {
                 controller.transform.rotation = Quaternion.Slerp(
                     controller.transform.rotation,

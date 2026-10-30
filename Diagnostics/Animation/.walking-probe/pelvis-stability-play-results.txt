@@ -1,0 +1,3 @@
+Real Play Mode, 540 frames: standing delta 0m/0deg; animated feet/toes delta 2.827296E-07m/0deg.
+Chest relative to pelvis vs standing 6.14768E-08m/0deg; rifle relative to chest 1.933731E-05m/0deg; accepted rounds across actors 56.
+PASS. Production callbacks: walking before aiming, standing/moving aim/fire, rapid movement restart, changing camera pitch and character heading/position, release, disable/re-enable.

@@ -1,0 +1,126 @@
+CLIP Armature.003|shooting GUID=5b8bcc55ebe5eec4fae4d9b88cb0a549 fileID=-7768389078912668132 length=0.2916667 fps=24 legacy=False loop=False human=False root=False motion=False
+Armature.003 | Transform | m_LocalRotation.x | range=-0.7071068..-0.7071068
+Armature.003 | Transform | m_LocalRotation.y | range=0..0
+Armature.003 | Transform | m_LocalRotation.z | range=0..0
+Armature.003 | Transform | m_LocalRotation.w | range=0.7071067..0.7071067
+Armature.003/Bone | Transform | m_LocalRotation.x | range=0.9999389..1
+Armature.003/Bone | Transform | m_LocalRotation.y | range=-4.786591E-15..0.002146148
+Armature.003/Bone | Transform | m_LocalRotation.z | range=-7.54979E-08..0.006237275
+Armature.003/Bone | Transform | m_LocalRotation.w | range=-0.008874174..-1.331581E-07
+Armature.003/Bone/Bone.001 | Transform | m_LocalRotation.x | range=5.04871E-29..5.04871E-29
+Armature.003/Bone/Bone.001 | Transform | m_LocalRotation.y | range=0..0
+Armature.003/Bone/Bone.001 | Transform | m_LocalRotation.z | range=8.47033E-22..8.47033E-22
+Armature.003/Bone/Bone.001 | Transform | m_LocalRotation.w | range=1..1
+Armature.003/Bone/Bone.002 | Transform | m_LocalRotation.x | range=-9.824621E-09..-9.824621E-09
+Armature.003/Bone/Bone.002 | Transform | m_LocalRotation.y | range=1.192093E-07..1.192093E-07
+Armature.003/Bone/Bone.002 | Transform | m_LocalRotation.z | range=3.583968E-15..3.583968E-15
+Armature.003/Bone/Bone.002 | Transform | m_LocalRotation.w | range=1..1
+Armature.003/Bone/Bone.003 | Transform | m_LocalRotation.x | range=-0.2172755..0.03308237
+Armature.003/Bone/Bone.003 | Transform | m_LocalRotation.y | range=-0.05455411..0.4721394
+Armature.003/Bone/Bone.003 | Transform | m_LocalRotation.z | range=-0.911699..1.018634E-10
+Armature.003/Bone/Bone.003 | Transform | m_LocalRotation.w | range=-0.9673787..1
+Armature.003/Bone/Bone.004 | Transform | m_LocalRotation.x | range=-0.5000002..-0.5000002
+Armature.003/Bone/Bone.004 | Transform | m_LocalRotation.y | range=-0.4999998..-0.4999998
+Armature.003/Bone/Bone.004 | Transform | m_LocalRotation.z | range=0.4999998..0.4999998
+Armature.003/Bone/Bone.004 | Transform | m_LocalRotation.w | range=0.5000004..0.5000004
+Armature.003 | Transform | m_LocalPosition.x | range=0..0
+Armature.003 | Transform | m_LocalPosition.y | range=0..0
+Armature.003 | Transform | m_LocalPosition.z | range=0..0
+Armature.003/Bone | Transform | m_LocalPosition.x | range=0..0
+Armature.003/Bone | Transform | m_LocalPosition.y | range=-0.01661973..-0.01381801
+Armature.003/Bone | Transform | m_LocalPosition.z | range=-0.003766354..-0.003515216
+Armature.003/Bone/Bone.001 | Transform | m_LocalPosition.x | range=-1.587596E-09..-1.587596E-09
+Armature.003/Bone/Bone.001 | Transform | m_LocalPosition.y | range=-0.01681114..-0.004811134
+Armature.003/Bone/Bone.001 | Transform | m_LocalPosition.z | range=-0.01051417..-0.01051417
+Armature.003/Bone/Bone.002 | Transform | m_LocalPosition.x | range=-2.088747E-09..-2.088747E-09
+Armature.003/Bone/Bone.002 | Transform | m_LocalPosition.y | range=0.003070545..0.003070545
+Armature.003/Bone/Bone.002 | Transform | m_LocalPosition.z | range=-0.01399369..-0.01399369
+Armature.003/Bone/Bone.003 | Transform | m_LocalPosition.x | range=-0.04555088..5.432893E-08
+Armature.003/Bone/Bone.003 | Transform | m_LocalPosition.y | range=-0.0260001..-0.002457615
+Armature.003/Bone/Bone.003 | Transform | m_LocalPosition.z | range=-0.01492522..-0.005834612
+Armature.003/Bone/Bone.004 | Transform | m_LocalPosition.x | range=1.399799E-05..1.399799E-05
+Armature.003/Bone/Bone.004 | Transform | m_LocalPosition.y | range=-0.0129186..-0.0129186
+Armature.003/Bone/Bone.004 | Transform | m_LocalPosition.z | range=0.01849983..0.01849983
+Armature.003 | Transform | m_LocalScale.x | range=100..100
+Armature.003 | Transform | m_LocalScale.y | range=100..100
+Armature.003 | Transform | m_LocalScale.z | range=100..100
+Armature.003/Bone | Transform | m_LocalScale.x | range=1..1
+Armature.003/Bone | Transform | m_LocalScale.y | range=1..1
+Armature.003/Bone | Transform | m_LocalScale.z | range=1..1
+Armature.003/Bone/Bone.001 | Transform | m_LocalScale.x | range=1..1
+Armature.003/Bone/Bone.001 | Transform | m_LocalScale.y | range=0.9999999..0.9999999
+Armature.003/Bone/Bone.001 | Transform | m_LocalScale.z | range=1..1
+Armature.003/Bone/Bone.002 | Transform | m_LocalScale.x | range=1..1
+Armature.003/Bone/Bone.002 | Transform | m_LocalScale.y | range=1..1
+Armature.003/Bone/Bone.002 | Transform | m_LocalScale.z | range=1..1
+Armature.003/Bone/Bone.003 | Transform | m_LocalScale.x | range=1..1
+Armature.003/Bone/Bone.003 | Transform | m_LocalScale.y | range=1..1
+Armature.003/Bone/Bone.003 | Transform | m_LocalScale.z | range=1..1
+Armature.003/Bone/Bone.004 | Transform | m_LocalScale.x | range=0.9999999..0.9999999
+Armature.003/Bone/Bone.004 | Transform | m_LocalScale.y | range=0.9999998..0.9999998
+Armature.003/Bone/Bone.004 | Transform | m_LocalScale.z | range=0.9999999..0.9999999
+TIME 0
+ar15(Clone): positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Armature.003: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(100.000000, 100.000000, 100.000000)
+Bone: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.001: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.001_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.002: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.002_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.003: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.003_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.004: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.004_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+low poly: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(100.000000, 100.000000, 100.000000)
+TIME 0.07291667
+ar15(Clone): positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Armature.003: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(100.000000, 100.000000, 100.000000)
+Bone: positionDelta=(0.000000, -0.002633, -0.000236) angle=1.300235 scale=(1.000000, 1.000000, 1.000000)
+Bone.001: positionDelta=(0.000000, 0.012000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.001_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.002: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.002_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.003: positionDelta=(-0.006554, 0.014465, -0.000551) angle=46.64921 scale=(1.000000, 1.000000, 1.000000)
+Bone.003_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.004: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.004_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+low poly: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(100.000000, 100.000000, 100.000000)
+TIME 0.1458333
+ar15(Clone): positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Armature.003: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(100.000000, 100.000000, 100.000000)
+Bone: positionDelta=(0.000000, -0.001645, -0.000147) angle=0.8392955 scale=(1.000000, 1.000000, 1.000000)
+Bone.001: positionDelta=(0.000000, 0.002045, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.001_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.002: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.002_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.003: positionDelta=(-0.011663, 0.023542, -0.001163) angle=129.4742 scale=(1.000000, 1.000000, 1.000000)
+Bone.003_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.004: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.004_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+low poly: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(100.000000, 100.000000, 100.000000)
+TIME 0.21875
+ar15(Clone): positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Armature.003: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(100.000000, 100.000000, 100.000000)
+Bone: positionDelta=(0.000000, -0.000552, -0.000050) angle=0.323851 scale=(1.000000, 1.000000, 1.000000)
+Bone.001: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.001_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.002: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.002_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.003: positionDelta=(-0.021993, 0.019438, -0.003275) angle=148.1515 scale=(1.000000, 1.000000, 1.000000)
+Bone.003_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.004: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.004_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+low poly: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(100.000000, 100.000000, 100.000000)
+TIME 0.2916667
+ar15(Clone): positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Armature.003: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(100.000000, 100.000000, 100.000000)
+Bone: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.001: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.001_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.002: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.002_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.003: positionDelta=(-0.045551, 0.019438, 0.004679) angle=29.34984 scale=(1.000000, 1.000000, 1.000000)
+Bone.003_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.004: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+Bone.004_end: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(1.000000, 1.000000, 1.000000)
+low poly: positionDelta=(0.000000, 0.000000, 0.000000) angle=0 scale=(100.000000, 100.000000, 100.000000)

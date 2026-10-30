@@ -1,0 +1,7 @@
+30 fps: standing change=0m / 0deg; walking legs change=0m / 0deg; W-induced upper-state changes=0
+  Gun relative to chest, walking vs standing: before=0.04844505m / 16.74364deg; after=0.008603223m / 2.837718deg.
+60 fps: standing change=0m / 0deg; walking legs change=0m / 0deg; W-induced upper-state changes=0
+  Gun relative to chest, walking vs standing: before=0.04850693m / 16.74007deg; after=0.00872947m / 2.898849deg.
+144 fps: standing change=0m / 0deg; walking legs change=0m / 0deg; W-induced upper-state changes=0
+  Gun relative to chest, walking vs standing: before=0.04882291m / 16.78623deg; after=0.008783713m / 2.926529deg.
+PASS. User-tuned standing aim/fire unchanged; common upper-body states persist across walking input; walking gait preserved.

@@ -1,0 +1,39 @@
+30 fps idle wrist difference=0
+Gun transform ar15 localScale=(0.03, 0.03, 0.03) lossy=(0.03, 0.03, 0.03)
+Gun transform Armature.003 localScale=(100.00, 100.00, 100.00) lossy=(2.50, 3.13, 3.25)
+Gun transform Bone localScale=(1.00, 1.00, 1.00) lossy=(2.50, 3.13, 3.25)
+Gun transform Bone.001 localScale=(1.00, 1.00, 1.00) lossy=(2.50, 3.13, 3.25)
+Gun transform Bone.001_end localScale=(1.00, 1.00, 1.00) lossy=(2.50, 3.13, 3.25)
+Gun transform Bone.002 localScale=(1.00, 1.00, 1.00) lossy=(2.50, 3.13, 3.25)
+Gun transform Bone.002_end localScale=(1.00, 1.00, 1.00) lossy=(2.50, 3.13, 3.25)
+Gun transform Bone.003 localScale=(1.00, 1.00, 1.00) lossy=(2.50, 3.13, 3.25)
+Gun transform Bone.003_end localScale=(1.00, 1.00, 1.00) lossy=(2.50, 3.13, 3.25)
+Gun transform Bone.004 localScale=(1.00, 1.00, 1.00) lossy=(3.13, 3.25, 2.50)
+Gun transform Bone.004_end localScale=(1.00, 1.00, 1.00) lossy=(3.13, 3.25, 2.50)
+Gun transform low poly localScale=(100.00, 100.00, 100.00) lossy=(2.50, 3.13, 3.25)
+Gun transform LeftHandGrip localScale=(1.00, 1.00, 1.00) lossy=(0.03, 0.03, 0.03)
+Gun transform Muzzle localScale=(1.00, 1.00, 1.00) lossy=(0.03, 0.03, 0.03)
+renderer worldbounds=Center: (-0.06, 0.48, 0.14), Extents: (0.16, 0.14, 0.12) meshbounds=Center: (0.00, 0.00, 0.00), Extents: (0.01, 0.06, 0.02)
+BAKE scale=False muzzle=(0.00138453, 2.24131100, -18.64209000)
+BAKE scale=True muzzle=(0.00054820, 0.68963530, -5.96547400)
+30 fps aiming: max grip error=1.316562E-07m; barrel angle=0.02797646; head angle=0.02797646; old grip=0.09780645m; old barrel=25.53292; late foot change=0
+30 fps pitch=-70: grip=6.705523E-08m, barrel=0
+30 fps pitch=-30: grip=7.922266E-08m, barrel=0
+30 fps pitch=30: grip=7.459888E-08m, barrel=0
+30 fps pitch=70: grip=6.757065E-08m, barrel=0
+30 fps near surface target=(0.0206, 0.6218, 0.9000): barrel=0
+60 fps idle wrist difference=0
+60 fps aiming: max grip error=1.351413E-07m; barrel angle=0.02797646; head angle=0.02797646; old grip=0.09780581m; old barrel=26.05033; late foot change=0
+60 fps pitch=-70: grip=1.501713E-08m, barrel=0
+60 fps pitch=-30: grip=2.421439E-08m, barrel=0
+60 fps pitch=30: grip=7.385101E-08m, barrel=0
+60 fps pitch=70: grip=9.185693E-08m, barrel=0
+60 fps near surface target=(0.0206, 0.6218, 0.9000): barrel=0.02797646
+144 fps idle wrist difference=0
+144 fps aiming: max grip error=1.64082E-07m; barrel angle=0.02797646; head angle=0.02797646; old grip=0.09779827m; old barrel=25.92333; late foot change=0
+144 fps pitch=-70: grip=3.003425E-08m, barrel=0
+144 fps pitch=-30: grip=7.598131E-08m, barrel=0
+144 fps pitch=30: grip=7.533934E-08m, barrel=0
+144 fps pitch=70: grip=8.024521E-08m, barrel=0
+144 fps near surface target=(0.0206, 0.6218, 0.9000): barrel=0
+PASS. Actual live-fitted character and AR15 copies; standing/moving aim, both firing poses, release and missing-target checks.

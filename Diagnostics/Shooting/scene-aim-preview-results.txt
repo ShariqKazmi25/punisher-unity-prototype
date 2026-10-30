@@ -1,0 +1,3 @@
+Real Play Mode: aim held with no Game-view input; cursor free; normal controls blocked; shoulder zoom and aim direction preserved.
+Unpaused live tuning: elbow moved 0.0152103m after target edit; animation continued; Scene clicks fired no shots.
+Preview off: normal pose/lens restored; fire requires button release before rearming. PASS.

@@ -1,0 +1,35 @@
+2026-10-26T09:50:12.5957301+05:00
+Scene Animator punisher_vest@Rifle Idle: Assets/punisher/animations/Punisher.controller
+CONTROLLER Assets/punisher/animations/Punisher.controller dirty=True
+PARAM iswalking Bool
+PARAM isrunning Bool
+PARAM isaiming Bool
+PARAM isfiring Bool
+LAYER Base Layer weight=0 blend=Override IK=True mask=
+  MACHINE Base Layer default=Rifle Idle
+  STATE Rifle Idle motion=Rifle Idle path=Assets/punisher/punisher_vest@Rifle Idle.fbx speed=1 writeDefaults=True
+  Rifle Idle -> Rifle Walk conditions=iswalking:If:0 duration=1.097857 fixed=True exit=False:0.9574425 offset=0.8114086 interrupt=Destination ordered=True
+  Rifle Idle -> Rifle Aiming Idle conditions=isaiming:If:0 duration=0.27876 fixed=True exit=False:0.9674599 offset=0.09520455 interrupt=Destination ordered=True
+  Rifle Idle -> Firing Rifle2 conditions=isfiring:If:0 AND isaiming:IfNot:0 AND iswalking:IfNot:0 duration=0.2776442 fixed=True exit=False:0.9708171 offset=0 interrupt=Destination ordered=True
+  STATE Rifle Walk motion=Rifle Walk path=Assets/punisher/animations/punisher_vest@Rifle Walk.fbx speed=1 writeDefaults=True
+  Rifle Walk -> Rifle Walk To Stop conditions=iswalking:IfNot:0 duration=0.4592491 fixed=True exit=False:0.4726111 offset=0.1316188 interrupt=Destination ordered=True
+  STATE Rifle Walk To Stop motion=Rifle Walk To Stop path=Assets/punisher/animations/punisher_vest@Rifle Walk To Stop.fbx speed=1 writeDefaults=True
+  Rifle Walk To Stop -> Rifle Idle conditions=iswalking:IfNot:0 duration=0.25 fixed=True exit=True:0.9101796 offset=0 interrupt=Destination ordered=True
+  Rifle Walk To Stop -> Rifle Walk conditions=iswalking:If:0 duration=0.7104838 fixed=True exit=False:0.8579341 offset=0 interrupt=Destination ordered=True
+  Rifle Walk To Stop -> Walking conditions=iswalking:If:0 AND isaiming:If:0 duration=0.9331803 fixed=True exit=False:0.7489859 offset=0 interrupt=Destination ordered=True
+  STATE Rifle Aiming Idle motion=Rifle Aiming Idle path=Assets/punisher/animations/punisher_vest@Rifle Aiming Idle.fbx speed=1 writeDefaults=True
+  Rifle Aiming Idle -> Rifle Idle conditions=isaiming:IfNot:0 duration=0.5476637 fixed=True exit=True:0.8965517 offset=0 interrupt=Destination ordered=True
+  Rifle Aiming Idle -> Walking conditions=iswalking:If:0 AND isaiming:If:0 duration=0.5368388 fixed=True exit=False:0.8426008 offset=0 interrupt=Destination ordered=True
+  Rifle Aiming Idle -> Firing Rifle2 conditions=isfiring:If:0 AND iswalking:IfNot:0 duration=0.25 fixed=True exit=False:0.8965517 offset=0 interrupt=Destination ordered=True
+  STATE Walking motion=Walking path=Assets/punisher/animations/punisher_vest@Walking.fbx speed=1 writeDefaults=True
+  Walking -> Rifle Walk conditions=iswalking:If:0 AND isaiming:IfNot:0 duration=0.7693952 fixed=True exit=False:0.2798013 offset=0 interrupt=Destination ordered=True
+  Walking -> Rifle Aiming Idle conditions=iswalking:IfNot:0 AND isaiming:If:0 duration=1.035234 fixed=True exit=False:0.5816273 offset=0 interrupt=Destination ordered=True
+  Walking -> Rifle Walk To Stop conditions=iswalking:IfNot:0 AND isaiming:IfNot:0 duration=0.8256453 fixed=True exit=False:0.4681242 offset=0 interrupt=Destination ordered=True
+  Walking -> Firing Rifle conditions=isfiring:If:0 AND iswalking:If:0 duration=0.585317 fixed=True exit=False:0.4597073 offset=0 interrupt=None ordered=True
+  STATE Firing Rifle2 motion=Firing Rifle2 path=Assets/punisher/animations/punisher_vest@Firing Rifle2.fbx speed=1 writeDefaults=True
+  Firing Rifle2 -> Rifle Idle conditions=isfiring:IfNot:0 duration=0.3137075 fixed=True exit=True:5.829643E-08 offset=0 interrupt=Destination ordered=True
+  Firing Rifle2 -> Rifle Aiming Idle conditions=iswalking:IfNot:0 AND isfiring:IfNot:0 AND isaiming:If:0 duration=0.25 fixed=True exit=False:0 offset=0 interrupt=None ordered=True
+  STATE Firing Rifle motion=Firing Rifle path=Assets/punisher/animations/punisher_vest@Firing Rifle.fbx speed=1 writeDefaults=True
+  Firing Rifle -> Walking conditions=isfiring:IfNot:0 AND iswalking:If:0 AND iswalking:If:0 duration=0.25 fixed=True exit=False:0.6739131 offset=0 interrupt=None ordered=True
+  Firing Rifle -> Firing Rifle2 conditions=iswalking:IfNot:0 duration=0.25 fixed=True exit=True:0.6739131 offset=0 interrupt=None ordered=True
+  Firing Rifle -> Rifle Walk conditions=iswalking:If:0 AND iswalking:If:0 duration=0.25 fixed=True exit=False:0.6739131 offset=0 interrupt=None ordered=True

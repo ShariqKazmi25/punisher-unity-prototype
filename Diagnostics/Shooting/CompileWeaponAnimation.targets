@@ -1,0 +1,8 @@
+<Project>
+  <!-- Include new source files before Unity refreshes its generated IDE project. -->
+  <ItemGroup Condition="'$(MSBuildProjectName)' == 'Assembly-CSharp'">
+    <Compile Remove="Assets/Scripts/RifleWeaponAnimation.cs;Assets\Scripts\RifleWeaponAnimation.cs;Assets/Scripts/RifleWeaponAnimationSettings.cs;Assets\Scripts\RifleWeaponAnimationSettings.cs" />
+    <Compile Include="$(MSBuildProjectDirectory)/Assets/Scripts/RifleWeaponAnimation.cs" />
+    <Compile Include="$(MSBuildProjectDirectory)/Assets/Scripts/RifleWeaponAnimationSettings.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+30fps: standing delta 0m/0deg; animated feet/toes delta 3.300195E-07m/0deg; leg length error 1.639128E-07m; knee adjustment 0.02688405m.
+  Pelvis roll range 5.503313 -> 0.4270599deg; pelvis vs standing rotation 0deg, lateral 1.862645E-09m; extra stance lowering 0.001533478m. Waist rotation/length difference 0deg/4.179618E-09m; chest rotation 0deg. Max chest step 0.01263433m.
+60fps: standing delta 0m/0deg; animated feet/toes delta 2.988602E-07m/0deg; leg length error 1.937151E-07m; knee adjustment 0.02691221m.
+  Pelvis roll range 5.503312 -> 0.4270334deg; pelvis vs standing rotation 0deg, lateral 1.862645E-09m; extra stance lowering 0.001534045m. Waist rotation/length difference 0deg/4.216743E-09m; chest rotation 0deg. Max chest step 0.006809297m.
+144fps: standing delta 0m/0deg; animated feet/toes delta 2.751676E-07m/0deg; leg length error 2.235174E-07m; knee adjustment 0.0272587m.
+  Pelvis roll range 5.503308 -> 0.4269323deg; pelvis vs standing rotation 0deg, lateral 1.862645E-09m; extra stance lowering 0.001527309m. Waist rotation/length difference 0deg/4.656613E-09m; chest rotation 0deg. Max chest step 0.004979846m.
+PASS. Standing pose and animated footfalls retained; pelvis/waist stable; leg lengths unchanged; aim/fire, starts/stops, release and changing aim checked.

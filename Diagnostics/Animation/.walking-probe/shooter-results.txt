@@ -1,0 +1,12 @@
+Weapon Lowered: duration=8.566668, loop=True
+Rifle Aiming Idle: duration=2.416667, loop=True
+Firing Rifle2: duration=0.200000, loop=True
+Saved graph: three shared states, six routes; all input combinations exclusive and complete; walking does not change upper-body states.
+Hitscan: centre ray, self-ignore, 5 rounds/sec cooldown, damage, recoil hold, aim-only, muzzle cover and barrel-through-cover passed.
+30 fps: graph states/interrupts/held-fire loops passed; masked leg angle difference=0, foot position difference=0
+30 fps: camera-facing idle turn, mouse sensitivity, shoulder aim/restore passed.
+60 fps: graph states/interrupts/held-fire loops passed; masked leg angle difference=0, foot position difference=0
+60 fps: camera-facing idle turn, mouse sensitivity, shoulder aim/restore passed.
+144 fps: graph states/interrupts/held-fire loops passed; masked leg angle difference=0, foot position difference=0
+144 fps: camera-facing idle turn, mouse sensitivity, shoulder aim/restore passed.
+PASS. Actual saved production controller, mask, imports and source scripts tested on copies. Full-scene visual tuning remains with the user.

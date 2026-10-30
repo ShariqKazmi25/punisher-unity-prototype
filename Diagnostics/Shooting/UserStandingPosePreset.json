@@ -1,0 +1,98 @@
+{
+  "previewAimInSceneView": false,
+  "positionWeight": 0,
+  "rotationWeight": 0.22599999606609344,
+  "elbowWeight": 0.5,
+  "followCameraAim": true,
+  "aimBodyWeight": 1,
+  "aimHeadWeight": 0,
+  "preserveIdleGrip": true,
+  "preserveIdleFingerPose": true,
+  "aimingPositionWeight": 1,
+  "aimingRotationWeight": 0.06300000101327896,
+  "shoulderStockWhileAiming": true,
+  "shoulderOffset": {
+    "x": -0.014999999664723873,
+    "y": -0.02500000037252903,
+    "z": 0.054999999701976776
+  },
+  "ar15StockLocalPosition": {
+    "x": 0,
+    "y": 0.4419400095939636,
+    "z": 5.515870094299316
+  },
+  "supportHandSlideBack": 0.017500000074505806,
+  "guideAimingElbows": true,
+  "leftAimElbowOffset": {
+    "x": -0.03999999910593033,
+    "y": -0.14000000059604645,
+    "z": 0.10000000149011612
+  },
+  "rightAimElbowOffset": {
+    "x": 0.07999999821186066,
+    "y": -0.1599999964237213,
+    "z": 0.019999999552965164
+  },
+  "aimingElbowHintWeight": 0.7689999938011169,
+  "minimumLeftElbowBend": 82,
+  "maximumLeftElbowBend": 95,
+  "minimumRightElbowBend": 9.399999618530273,
+  "maximumRightElbowBend": 127.69999694824219,
+  "createAR15Muzzle": true,
+  "ar15MuzzleLocalPosition": {
+    "x": 0.0005499999970197678,
+    "y": 0.6896399855613708,
+    "z": -5.965469837188721
+  },
+  "localBarrelDirection": {
+    "x": 0,
+    "y": 0,
+    "z": -1
+  },
+  "maxAimCorrection": 25,
+  "localHeadForward": {
+    "x": 0,
+    "y": 0,
+    "z": 1
+  },
+  "targets": {
+    "StockShoulderTarget": {
+      "parent": "mixamorig:Spine2",
+      "localPosition": [
+        0.0892,
+        0.0973,
+        0.0477
+      ]
+    },
+    "LeftAimElbowTarget": {
+      "parent": "mixamorig:Spine2",
+      "localPosition": [
+        -0.09,
+        -0.042,
+        0.101
+      ]
+    },
+    "RightAimElbowTarget": {
+      "parent": "mixamorig:Spine2",
+      "localPosition": [
+        0.15,
+        -0.069,
+        0.012
+      ]
+    },
+    "LeftHandGrip": {
+      "parent": "ar15",
+      "localPosition": [
+        0.0127,
+        -0.0273,
+        -0.0048
+      ],
+      "localRotation": [
+        0.9709675,
+        0,
+        0,
+        -0.2392118
+      ]
+    }
+  }
+}

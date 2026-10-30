@@ -1,0 +1,5 @@
+Original FBX clip reference: Armature.003|shooting, length=0.2916667, fps=24
+30 fps: shots=10, bolt motion=0.012, casing motion=0.03719641, max grip error=1.228781E-07m, barrel error=0.02797646deg, foot displacement=0; release/fast cycle/disable passed.
+60 fps: shots=10, bolt motion=0.012, casing motion=0.04370736, max grip error=1.210576E-07m, barrel error=0.02797646deg, foot displacement=0; release/fast cycle/disable passed.
+144 fps: shots=10, bolt motion=0.012, casing motion=0.04770441, max grip error=1.207455E-07m, barrel error=0.02797646deg, foot displacement=0; release/fast cycle/disable passed.
+PASS. Original AR15 clip drives actual weapon bones once per accepted shot; fitted gun root unchanged.

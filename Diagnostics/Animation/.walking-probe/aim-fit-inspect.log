@@ -1,0 +1,397 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 4252)
+VBCSCompiler prewarm took 12.20 ms
+.walking-probe is not a valid directory name. Please make sure there are no unallowed characters in the name.
+.walking-probe is not a valid directory name. Please make sure there are no unallowed characters in the name.
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-shari" at "2026-10-26T05:33:42.223854Z"
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16091 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-26T05:33:42Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22072, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              ae347b920e56477fbe27146ce7872dc5
+  Correlation Id:          36a027c112fba024c439bbd034b66664
+  External correlation Id: 5106015810317591894
+  Machine Id:              0nWlh39XSnN+tX8VWzBcgHZaLhM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-shari" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-shari-notifications" at "2026-10-26T05:33:42.2842982Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18967973315244-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.08s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe
+-executeMethod
+AimFitProbe.Inspect
+-logFile
+C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe/aim-fit-inspect.log
+Successfully changed project path to: C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe
+C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [56260]  Target information:
+
+Player connection [56260]  * "[IP] 192.168.20.147 [Port] 55505 [Flags] 2 [Guid] 258574585 [EditorId] 258574585 [Version] 1048832 [Id] WindowsEditor(7,LOQShariq) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [56260] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [56260] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-48760" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.019824 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Licensing::Client] Successfully resolved entitlement details
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  5.518 seconds
+Domain Reload Profiling: 6400ms
+	BeginReloadAssembly (214ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (113ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (197ms)
+		TypeCache.Refresh (349ms)
+			TypeCache.ScanAssembly (326ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (5523ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (84ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (4747ms)
+			EditorAssembliesLoaded (3ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 39 packages:
+  Built-in packages:
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.hierarchycore)
+  Local packages:
+    com.unity.inputsystem@file:C:\Users\shari\openworld_prototype1\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194 (location: C:\Users\shari\openworld_prototype1\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.04 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aEDbg.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe
+DisplayProgressbar: Compiling Scripts
+ExitCode: 4 Duration: 0s488ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aEDbg-inputdata.json
+[230/251    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[231/251    0s] Csc Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.dll (+2 others)
+*** Tundra requires additional run (0.44 seconds), 2 items updated, 229 evaluated
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aEDbg.dag.json" "Library/Bee/1900b0aEDbg-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe
+ExitCode: 0 Duration: 0s402ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aEDbg.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aEDbg.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe
+ExitCode: 0 Duration: 0s551ms
+Finished compiling graph: 254 nodes, 1699 flattened edges (1637 ToBuild, 12 ToUse), maximum node priority 79
+[217/251    0s] WriteText Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp-Editor.rsp
+[231/251    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[244/251    0s] ILPostProcess Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.dll, with 148 defines and 311 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[245/251    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[246/251    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[247/251    0s] Csc Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp-Editor.dll (+2 others)
+[248/251    0s] ILPostProcess Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp-Editor.dll, with 146 defines and 325 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[249/251    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[250/251    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (0.52 seconds), 9 items updated, 251 evaluated
+AssetDatabase: script compilation time: 2.139151s
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.859 seconds
+Domain Reload Profiling: 2029ms
+	BeginReloadAssembly (513ms)
+		DisableScriptedObjects (97ms)
+		CreateAndSetChildDomain (166ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (406ms)
+		TypeCache.Refresh (76ms)
+			TypeCache.ScanAssembly (63ms)
+		AnalyzeDomain (33ms)
+			BuildScriptInfoCaches (22ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (861ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (201ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
+			AfterProcessingInitializeOnLoad (11ms)
+		AwakeInstancesAfterBackupRestoration (51ms)
+Starting new worker id: 0 with log in C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe/Logs/AssetImportWorkerHW0.log
+Importing 'GUID: 5b8bcc55ebe5eec4fae4d9b88cb0a549 - Path: Assets/ar15.fbx' with importer (FBXImporter)
+Keyframe reduction: Ratio: 8.854167%;
+Keyframe reduction: Ratio: 38.888889%;
+Keyframe reduction: Ratio: 36.111111%;
+Keyframe reduction: Ratio: 26.388889%;
+Keyframe reduction: Ratio: 13.675213%;
+Keyframe reduction: Ratio: 13.552189%;
+Keyframe reduction: Ratio: 10.964912%;
+Keyframe reduction: Ratio: 4.047094%;
+Keyframe reduction: Ratio: 13.009846%;
+Keyframe reduction: Ratio: 2.200220%;
+Keyframe reduction: Ratio: 12.447257%;
+Keyframe reduction: Ratio: 10.781078%;
+Keyframe reduction: Ratio: 2.200220%;
+Keyframe reduction: Ratio: 3.494218%;
+Imported 'GUID: 5b8bcc55ebe5eec4fae4d9b88cb0a549' -> (Import Result ID: '4758b91513a1a37a76b4489be7a69fdc') in 0.152 seconds [static dependencies only]. Details - ImportResultOutputID=397cac31b9b1dae1359b49a22fb79319 DependenciesID=0c002cac4be0f2a31d196f31c5ac33b3 StaticDependenciesID=905f8e1758cd23a13869182cbb372c4b 
+Importing 'GUID: 548dacd56ecade640805760134abdccc - Path: Assets/AimFitFixture.prefab' with importer (PrefabImporter)
+Imported 'GUID: 548dacd56ecade640805760134abdccc' -> (Import Result ID: 'a68487d53bf23729353cf457ec2f6774') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e62ed6b5e30e4c326c3560cff660df6c DependenciesID=498a21b052e9a4911cbb726035300ceb StaticDependenciesID=72740abb81e237dacb40f512efbfb357 
+
+Asset Pipeline Refresh (id=830a889f56c63e340a2dfd791896f843): Total: 4.884 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=2 (actual=2, local cache=0, cache server=0)
+		Asset DB Process Time: managed=6 ms, native=1326 ms
+		Asset DB Callback time: managed=95 ms, native=50 ms
+		Scripting: domain reloads=1, domain reload time=1236 ms, compile time=2143 ms, other=25 ms
+		Project Asset Count: scripts=189, non-scripts=233
+		Asset File Changes: new=8, changed=8, moved=0, deleted=5
+		Scan Filter Count: 0
+	InvokePackagesCallback: 50.780ms
+	ApplyChangesToAssetFolders: 0.696ms
+	Scan: 81.402ms
+	Collect global state as custom dependencies: 14.893ms
+	OnSourceAssetsModified: 0.769ms
+	CategorizeScriptCompilationAssets: 15.673ms
+	ProcessAssetsWithTransientArtifactChanges: 29.874ms
+	CategorizeAssets: 18.166ms
+	CompileScripts: 2143.210ms
+	ImportOutOfDateAssets: 1075.113ms (863.123ms without children)
+		ImportManagerImport: 195.630ms (2.777ms without children)
+		UnloadImportedAssets: 0.097ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.068ms
+		ImportSchedulerStart: 16.184ms
+	PostProcessAllAssets: 95.988ms
+		VersionControlSettings.HiddenFilePostprocess 0.470ms
+		XRBuildSystem.XRAssetImported 0.132ms
+		MonoPostProcessAllAssets: 93.753ms
+			AssetPostprocessor.OnPostprocessAllAssets 34.752ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 17.993ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 6.113ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 4.860ms
+			SyncVS.PostprocessSyncProject 3.722ms
+			AssetChangedListener.OnPostprocessAllAssets 2.866ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.771ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.470ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.408ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.090ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.026ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.657ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.494ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.481ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.466ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.440ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.407ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.373ms
+			AssetEvents.OnPostprocessAllAssets 0.326ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.270ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.260ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.243ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.180ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.135ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.111ms
+	PostAssetChangesProfiler: 2.150ms
+	UnloadStreamsBegin: 1.946ms
+	PersistCurrentRevisions: 0.082ms
+	GenerateScriptTypeHashes: 2.388ms
+	GenerateScriptTypeSerializationHashes: 5.026ms
+	Untracked: 1343.957ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 3.099ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-.walking-probe
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 492 unused Assets / (0.6 MB). Loaded Objects now: 1447.
+Memory consumption went from 256.5 MB to 255.9 MB.
+Total: 6.534500 ms (FindLiveObjects: 0.273200 ms CreateObjectMapping: 0.040300 ms MarkObjects: 5.730300 ms  DeleteObjects: 0.312400 ms)
+
+MonoPathRemapper: Attempts to remap: 4770; Successful remaps: 0
+Curl error 42: Callback aborted
+Serialized file version minimum: 23, current 23
+Curl error 42: Callback aborted
+Worker ready: AssetImportWorkerHW0 0
+Killing ADB server in 2.1225224 seconds.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-shari-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-shari channel disconnected successfully.
+Worker process still running after shutdown timeout - Worker ID: 0, Name: AssetImportWorkerHW0
+Waited for 1 workers to exit gracefully, force killed 1 workers
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1792992852490,"processId":48760,"allocatedMemory":11630500,"memoryLabels":[{"Default":201769},{"Permanent":15516},{"NewDelete":69445},{"Thread":4198024},{"Manager":35397},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":841989},{"Material":24},{"GfxDevice":55968},{"Animation":1200},{"Audio":1272},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":32832},{"Input":42840},{"JobScheduler":256},{"TextLib":280},{"Mono":48},{"ScriptingNativeRuntime":1299520},{"BaseObject":49488},{"Resource":1208},{"Renderer":2376},{"Transform":4685},{"File":4416},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":703647},{"StaticString":3808},{"Utility":2675350},{"Curl":2559},{"PoolAlloc":2216},{"AI":80},{"TypeTree":30997},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8048},{"CloudService":7152},{"WebRequest":629},{"VR":49650},{"SceneManager":608},{"Video":64},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":114580},{"VersionControl":8},{"Undo":931},{"AssetDatabase":685123},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":37018},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3620},{"Windowing":456},{"Licensing":12757},{"AssetReference":32},{"IPCStream":32}]}

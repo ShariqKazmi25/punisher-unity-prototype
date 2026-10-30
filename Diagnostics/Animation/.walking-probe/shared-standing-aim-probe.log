@@ -1,0 +1,519 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 28780)
+VBCSCompiler prewarm took 15.14 ms
+.walking-probe is not a valid directory name. Please make sure there are no unallowed characters in the name.
+.walking-probe is not a valid directory name. Please make sure there are no unallowed characters in the name.
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-shari" at "2026-10-27T15:07:09.0125714Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16091 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-27T15:07:09Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22072, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              58eb7d4dd2ac446594404fa9dbc0e740
+  Correlation Id:          36a027c112fba024c439bbd034b66664
+  External correlation Id: 7680410198046225289
+  Machine Id:              0nWlh39XSnN+tX8VWzBcgHZaLhM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-shari" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-shari-notifications" at "2026-10-27T15:07:09.0830288Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18967973315244-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.09s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe
+-executeMethod
+SharedStandingAimProbe.Run
+-logFile
+C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe/shared-standing-aim-probe.log
+Successfully changed project path to: C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe
+C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [28992]  Target information:
+
+Player connection [28992]  * "[IP] 192.168.1.16 [Port] 55505 [Flags] 2 [Guid] 2152285517 [EditorId] 2152285517 [Version] 1048832 [Id] WindowsEditor(7,LOQShariq) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28992] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28992] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-34664" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.030603 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Licensing::Client] Successfully resolved entitlement details
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:False
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  4.506 seconds
+Domain Reload Profiling: 5391ms
+	BeginReloadAssembly (209ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (131ms)
+	LoadAllAssembliesAndSetupDomain (512ms)
+		LoadAssemblies (188ms)
+		TypeCache.Refresh (339ms)
+			TypeCache.ScanAssembly (317ms)
+		AnalyzeDomain (2ms)
+	FinalizeReload (4509ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (70ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (3584ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 39 packages:
+  Built-in packages:
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\shari\openworld_prototype1\Diagnostics\Animation\.walking-probe\Library\PackageCache\com.unity.modules.hierarchycore)
+  Local packages:
+    com.unity.inputsystem@file:C:\Users\shari\openworld_prototype1\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194 (location: C:\Users\shari\openworld_prototype1\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.07 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aEDbg.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s787ms
+[231/251    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[247/251    0s] Csc Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp-Editor.dll (+2 others)
+[248/251    0s] ILPostProcess Library/Bee/artifacts/1900b0aEDbg.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp-Editor.dll, with 146 defines and 325 references
+
+processors: zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+[249/251    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[250/251    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.73 seconds), 5 items updated, 251 evaluated
+AssetDatabase: script compilation time: 1.442080s
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.873 seconds
+Domain Reload Profiling: 2068ms
+	BeginReloadAssembly (514ms)
+		DisableScriptedObjects (64ms)
+		CreateAndSetChildDomain (188ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (430ms)
+		TypeCache.Refresh (84ms)
+			TypeCache.ScanAssembly (69ms)
+		AnalyzeDomain (34ms)
+			BuildScriptInfoCaches (22ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (875ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (10ms)
+		AwakeInstancesAfterBackupRestoration (52ms)
+Starting new worker id: 0 with log in C:/Users/shari/openworld_prototype1/Diagnostics/Animation/.walking-probe/Logs/AssetImportWorkerHW0.log
+Importing 'GUID: f1360ce442c1def4f999bb6baeecab8a - Path: Assets/Production.controller' with importer (NativeFormatImporter)
+Main Object Name 'Punisher' does not match filename 'Production'
+Imported 'GUID: f1360ce442c1def4f999bb6baeecab8a' -> (Import Result ID: '02ed101a5301ccbf8302ae169018bc01') in 0.018 seconds [static dependencies only]. Details - ImportResultOutputID=0d41cfae5c6a8821d7ae5167d2b9c8be DependenciesID=a58b1ab1e26cf2eace1d67c21c2aa569 StaticDependenciesID=c38ce2d94793f3b07e52a8904a502a72 
+Importing 'GUID: ccb5435950316664eb789b4700a075d9 - Path: Assets/UserBeforeSharedAim.controller' with importer (NativeFormatImporter)
+Main Object Name 'Punisher' does not match filename 'UserBeforeSharedAim'
+Imported 'GUID: ccb5435950316664eb789b4700a075d9' -> (Import Result ID: '59eca83fd34b0c100b01df4147af86bf') in 0.020 seconds [static dependencies only]. Details - ImportResultOutputID=bfe0940dcdff7c793c010affa2449ef3 DependenciesID=fc6f21d9804a853770bf012a4ceabc23 StaticDependenciesID=2f02d85b6fc1d878892147201261d768 
+Importing 'GUID: f2982f066c6b2d9499f50232fc7558bd - Path: Assets/UserStandingFixture.prefab' with importer (PrefabImporter)
+Imported 'GUID: f2982f066c6b2d9499f50232fc7558bd' -> (Import Result ID: 'a769443ca5fe58424f20115993df6ab3') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4cffec21ddc5ede031bf01e812e7be1 DependenciesID=1c9d5a4d03220b897b1dfbd3b8541eb0 StaticDependenciesID=158fef36c0de9288fa9222e3e59ede33 
+
+Asset Pipeline Refresh (id=10562c77ac981e547b361b5d9998ae8e): Total: 4.082 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=3 (actual=3, local cache=0, cache server=0)
+		Asset DB Process Time: managed=3 ms, native=1186 ms
+		Asset DB Callback time: managed=87 ms, native=74 ms
+		Scripting: domain reloads=1, domain reload time=1261 ms, compile time=1446 ms, other=23 ms
+		Project Asset Count: scripts=191, non-scripts=238
+		Asset File Changes: new=1, changed=5, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 74.697ms
+	ApplyChangesToAssetFolders: 1.541ms
+	Scan: 80.345ms
+	Collect global state as custom dependencies: 15.531ms
+	OnSourceAssetsModified: 0.960ms
+	CategorizeScriptCompilationAssets: 6.757ms
+	ProcessAssetsWithTransientArtifactChanges: 24.189ms
+	CategorizeAssets: 8.486ms
+	CompileScripts: 1445.511ms
+	ImportOutOfDateAssets: 970.709ms (877.865ms without children)
+		ImportManagerImport: 66.907ms (2.692ms without children)
+			UpdateCategorizedAssets: 0.052ms
+		UnloadImportedAssets: 0.107ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.085ms
+		ImportSchedulerStart: 25.728ms
+	PostProcessAllAssets: 86.076ms
+		XRBuildSystem.XRAssetImported 0.131ms
+		VersionControlSettings.HiddenFilePostprocess 0.070ms
+		MonoPostProcessAllAssets: 84.810ms
+			AssetPostprocessor.OnPostprocessAllAssets 30.020ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 13.624ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 6.063ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 5.019ms
+			AssetChangedListener.OnPostprocessAllAssets 3.188ms
+			SyncVS.PostprocessSyncProject 2.411ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.821ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.587ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.131ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.795ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.749ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.572ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.471ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.395ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.386ms
+			AssetEvents.OnPostprocessAllAssets 0.340ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.292ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.258ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.255ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.252ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.249ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.211ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.208ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.143ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.103ms
+	PostAssetChangesProfiler: 2.955ms
+	UnloadStreamsBegin: 1.639ms
+	PersistCurrentRevisions: 0.085ms
+	GenerateScriptTypeHashes: 3.254ms
+	GenerateScriptTypeSerializationHashes: 6.721ms
+	Untracked: 1355.073ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 1.936ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-.walking-probe
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 501 unused Assets / (486.3 KB). Loaded Objects now: 1457.
+Memory consumption went from 255.6 MB to 255.1 MB.
+Total: 8.754000 ms (FindLiveObjects: 0.373300 ms CreateObjectMapping: 0.039100 ms MarkObjects: 7.769300 ms  DeleteObjects: 0.362400 ms)
+
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+Worker ready: AssetImportWorkerHW0 0
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+Destroying object multiple times. Don't use DestroyImmediate on the same object in OnDisable or OnDestroy.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+RifleWeaponAnimation:OnDestroy () (at Assets/RifleWeaponAnimation.cs:125)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object,bool)
+UnityEngine.Object:DestroyImmediate (UnityEngine.Object)
+SharedStandingAimProbe/Actor:Destroy () (at Assets/Editor/SharedStandingAimProbe.cs:37)
+SharedStandingAimProbe:Run () (at Assets/Editor/SharedStandingAimProbe.cs:104)
+
+[Assets/Editor/SharedStandingAimProbe.cs line 37]
+
+MonoPathRemapper: Attempts to remap: 5378; Successful remaps: 0
+Serialized file version minimum: 23, current 23
+Killing ADB server in 2.1756891 seconds.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-shari-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-shari channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1793113650173,"processId":34664,"allocatedMemory":11262512,"memoryLabels":[{"Default":195924},{"Permanent":15516},{"NewDelete":70583},{"Thread":4198144},{"Manager":35397},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":841989},{"Material":24},{"GfxDevice":55968},{"Animation":3928},{"Audio":1272},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":32832},{"Input":42840},{"JobScheduler":256},{"TextLib":280},{"Mono":48},{"ScriptingNativeRuntime":1299520},{"BaseObject":49488},{"Resource":1208},{"Renderer":2376},{"Transform":4685},{"File":4416},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":328315},{"StaticString":3808},{"Utility":2675350},{"Curl":2559},{"PoolAlloc":2216},{"AI":80},{"TypeTree":30997},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":5320},{"CloudService":7296},{"WebRequest":8809},{"VR":49650},{"SceneManager":608},{"Video":64},{"LazyScriptCache":32},{"Camera":729},{"Secure":2377},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":128},{"EditorUtility":114764},{"VersionControl":8},{"Undo":931},{"AssetDatabase":685123},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":40441},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3620},{"Windowing":456},{"Licensing":12757},{"AssetReference":32},{"IPCStream":32}]}

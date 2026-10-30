@@ -1,0 +1,87 @@
+{
+    "previewAimInSceneView": false,
+    "leftHandGrip": {
+        "instanceID": 1099511663838
+    },
+    "positionWeight": 0.0,
+    "rotationWeight": 0.22599999606609344,
+    "leftElbowHint": {
+        "instanceID": 0
+    },
+    "elbowWeight": 0.5,
+    "followCameraAim": true,
+    "aimBodyWeight": 1.0,
+    "aimHeadWeight": 0.0,
+    "preserveIdleGrip": true,
+    "preserveIdleFingerPose": true,
+    "aimingPositionWeight": 1.0,
+    "aimingRotationWeight": 0.06300000101327896,
+    "shoulderStockWhileAiming": true,
+    "shoulderAnchor": {
+        "instanceID": 25288767476719
+    },
+    "shoulderOffset": {
+        "x": -0.014999999664723873,
+        "y": -0.02500000037252903,
+        "z": 0.054999999701976776
+    },
+    "stockContact": {
+        "instanceID": 0
+    },
+    "ar15StockLocalPosition": {
+        "x": 0.0,
+        "y": 0.4419400095939636,
+        "z": 5.515870094299316
+    },
+    "supportHandSlideBack": 0.017500000074505806,
+    "guideAimingElbows": true,
+    "leftAimElbowHint": {
+        "instanceID": 14293651198963
+    },
+    "rightElbowHint": {
+        "instanceID": 16492674454519
+    },
+    "leftAimElbowOffset": {
+        "x": -0.03999999910593033,
+        "y": -0.14000000059604645,
+        "z": 0.10000000149011612
+    },
+    "rightAimElbowOffset": {
+        "x": 0.07999999821186066,
+        "y": -0.1599999964237213,
+        "z": 0.019999999552965164
+    },
+    "aimingElbowHintWeight": 0.7689999938011169,
+    "minimumLeftElbowBend": 82.0,
+    "maximumLeftElbowBend": 95.0,
+    "minimumRightElbowBend": 9.399999618530273,
+    "maximumRightElbowBend": 127.69999694824219,
+    "weaponTransform": {
+        "instanceID": 1099511663857
+    },
+    "barrelTip": {
+        "instanceID": 0
+    },
+    "createAR15Muzzle": true,
+    "ar15MuzzleLocalPosition": {
+        "x": 0.0005499999970197678,
+        "y": 0.6896399855613708,
+        "z": -5.965469837188721
+    },
+    "localBarrelDirection": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+    },
+    "maxAimCorrection": 25.0,
+    "localHeadForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+    }
+}
+leftHandGrip: LeftHandGrip parent=ar15 position=(0.012700000, -0.027300000, -0.004800000) rotation=(0.970967500, 0.000000000, 0.000000000, -0.239211800) scale=(1.000000000, 1.000000000, 1.000000000)
+shoulderAnchor: StockShoulderTarget parent=mixamorig:Spine2 position=(0.089200000, 0.097300000, 0.047700000) rotation=(0.000000000, 0.000000000, 0.000000000, 1.000000000) scale=(1.000000000, 1.000000000, 1.000000000)
+leftAimElbowHint: LeftAimElbowTarget parent=mixamorig:Spine2 position=(-0.090000000, -0.042000000, 0.101000000) rotation=(0.000000000, 0.000000000, 0.000000000, 1.000000000) scale=(1.000000000, 1.000000000, 1.000000000)
+rightElbowHint: RightAimElbowTarget parent=mixamorig:Spine2 position=(0.150000000, -0.069000000, 0.012000000) rotation=(0.000000000, 0.000000000, 0.000000000, 1.000000000) scale=(1.000000000, 1.000000000, 1.000000000)
+weaponTransform: ar15 parent=WeaponMount position=(-0.018290000, 0.108010000, -0.002060000) rotation=(-0.456097200, 0.392999000, -0.490192600, -0.630268600) scale=(0.025000000, 0.032500000, 0.031250000)

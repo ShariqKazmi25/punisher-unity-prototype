@@ -1,0 +1,17 @@
+Hips world=(-0.028839, 0.413519, 0.019594)
+Chest world=(-0.026363, 0.506667, -0.000547)
+RightShoulder world=(0.014080, 0.615899, -0.000718)
+RightUpperArm world=(0.071227, 0.598190, -0.028319)
+RightLowerArm world=(0.107462, 0.519138, -0.009825)
+RightHand world=(0.064767, 0.524108, 0.094765)
+LeftUpperArm world=(-0.099442, 0.609885, 0.052464)
+LeftLowerArm world=(-0.064740, 0.577119, 0.127387)
+LeftHand world=(0.014044, 0.590763, 0.205197)
+Head world=(-0.005673, 0.649808, 0.025461)
+Model worldScale=(1.00, 1.00, 1.00); model localScale=(1.00, 1.00, 1.00)
+Stock z=5.515865 count=90 centre=(0.000566, 0.582140, 5.445858)
+Stock y=-0.06714647..0.9510289
+Stock point 0: local=(0.000000, -0.067146, 5.515865) world=(0.046553, 0.552409, 0.025351)
+Stock point 0.5: local=(0.000000, 0.441941, 5.515865) world=(0.047872, 0.568901, 0.025424)
+Stock point 1: local=(0.000000, 0.951029, 5.515865) world=(0.049191, 0.585394, 0.025498)
+Right elbow interior angle=89.96796; left=144.981

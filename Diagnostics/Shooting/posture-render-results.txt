@@ -1,0 +1,5 @@
+before: right angle=79.72224; left=176.0121
+025: right angle=89.96799; left=144.9809
+stock gap=0.009475281
+040: right angle=89.99998; left=136.8598
+stock gap=0.001240882

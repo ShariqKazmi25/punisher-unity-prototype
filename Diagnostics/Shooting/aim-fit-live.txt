@@ -1,0 +1,19 @@
+2026-10-26T10:31:50.9098079+05:00
+WeaponMount parent=mixamorig:RightHand localPos=(0.000000, 0.000000, 0.000000) localRot=(0.000000, 0.000000, 0.000000, 1.000000) scale=(1.000000, 1.000000, 1.000000)
+ar15 parent=WeaponMount localPos=(-0.018290, 0.108010, -0.002060) localRot=(-0.456097, 0.392999, -0.490193, -0.630269) scale=(0.025000, 0.032500, 0.031250)
+LeftHandGrip parent=ar15 localPos=(1.160000, 1.310000, -1.200000) localRot=(-0.239213, -0.000001, 0.000000, -0.970967) scale=(1.000000, 1.000000, 1.000000)
+Grip IK: {
+    "leftHandGrip": {
+        "instanceID": 53876069815116
+    },
+    "positionWeight": 0.3540000021457672,
+    "rotationWeight": 0.22599999606609344,
+    "leftElbowHint": {
+        "instanceID": 0
+    },
+    "elbowWeight": 0.5,
+    "followCameraAim": true,
+    "aimBodyWeight": 0.3499999940395355,
+    "aimHeadWeight": 0.6000000238418579
+}
+AR15 clips: reload.002 2.666667, Armature.003|shooting 0.2916667, Armature.003|walk 1.291667, reload 2.708333, Armature.003|run cycle 1.541667, Armature.003|run start 0.2916667, Armature.003|run stop 0.2083333, Armature.003|idle action 2 9.166667, Armature.003|idle.001 4.166667, Armature.003|reload 3.25, Armature.003|reload alternatiave 4.166667, Armature.003|idle 4.166667, Armature.003|idle action 1 6.25, Armature.003|reload alternative 2 3.25, __preview__Armature.003|run start 1, __preview__Armature.003|run stop 1, __preview__Armature.003|shooting 1, __preview__Armature.003|walk 1.291667, __preview__Armature.003|idle action 1 6.25, __preview__Armature.003|idle action 2 9.166667, __preview__Armature.003|idle.001 4.166667, __preview__Armature.003|reload 3.25, __preview__Armature.003|reload alternatiave 4.166667, __preview__Armature.003|reload alternative 2 3.25, __preview__Armature.003|run cycle 1.541667, __preview__reload.002 2.666667, __preview__Armature.003|idle 4.166667, __preview__reload 2.708333

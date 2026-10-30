@@ -1,0 +1,1 @@
+Applied common standing aim/fire states to Weapon Actions. All standing IK fields, grip/weapon/target transforms matched before and after exactly. Scene saved=True; playing=False.

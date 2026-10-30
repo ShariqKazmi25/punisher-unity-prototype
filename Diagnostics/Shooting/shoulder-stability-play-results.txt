@@ -1,0 +1,3 @@
+Real Play Mode, 540 frames: standing delta 0m/0deg; hips/legs delta 0m/0deg.
+Walking chest vs standing 5.9866E-08m/0deg; rifle 3.586354E-07m/0deg; accepted rounds across actors 56.
+PASS. Production callbacks: walking before aiming, standing/moving aim/fire, rapid movement restart, changing camera pitch and character heading/position, release, disable/re-enable.
