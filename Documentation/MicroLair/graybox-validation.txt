@@ -1,0 +1,5 @@
+PASS
+53 structural mesh objects: saved assets, UV0/UV1, normals/tangents, materials, colliders, unit transforms and upward top faces checked.
+Physics raycasts confirm the lower floor, hub, both bays, rear connection and all 12 stair tread heights.
+Capsule clearance confirms both upper aisles and access to equipment/living/control zones; both door apertures are unobstructed.
+No runtime generator, missing scripts, fine frames, railings, equipment or glass.
