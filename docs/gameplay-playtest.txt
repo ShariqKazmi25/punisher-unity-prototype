@@ -1,0 +1,10 @@
+PASS Copied physical camera is Camera.main.
+PASS Player settles on lower floor.
+PASS Weapon animation and shooting layer initialize.
+PASS Cinemachine keeps camera inside the front wall at spawn.
+PASS Game view captures gameplay input.
+PASS Right stairs traversed with actual W input, movement script and walking Animator.
+PASS RMB aim and LMB fire drive rifle animation and hit graybox colliders. Shots=8; hits=8; aim=True; focus=True; input=True; LMB=False; RMB=False; cycle=True
+PASS Left stairs traversed with actual W input, movement script and walking Animator.
+PASS Player remains grounded on upper deck after stopping.
+PASS Play-mode input smoke test complete; temporary virtual input devices removed.
