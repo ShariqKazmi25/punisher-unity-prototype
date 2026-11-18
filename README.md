@@ -1,16 +1,16 @@
 # Punisher Unity Prototype
 
-An unofficial third-person gameplay prototype in Unity. It includes a character controller, a Cinemachine shoulder camera, animation and hand IK, and an industrial interior graybox for level design.
+An unofficial third-person gameplay prototype in Unity. The Micro Lair scene combines a playable character rig and Cinemachine shoulder camera with an industrial interior, upper walkways, and steel-mullion windows.
 
-![Cutaway of the Micro Lair graybox](Documentation/MicroLair/graybox-cutaway.png)
+![Cutaway of the Micro Lair](Documentation/MicroLair/revision-e-cutaway.png)
 
 ## Open the project
 
-1. Clone the repository and add its root folder to Unity Hub.
-2. Open the project with Unity **6000.6.0f1**, as recorded in [ProjectVersion.txt](ProjectSettings/ProjectVersion.txt). Unity resolves URP, Cinemachine, and the Input System from [Packages/manifest.json](Packages/manifest.json).
-3. Open [SampleScene.unity](Assets/Scenes/SampleScene.unity) and press Play to try the character and camera. Open [MicroLair_Graybox.unity](Assets/Scenes/MicroLair_Graybox.unity) to inspect the separate level blockout.
+1. Install Git LFS and run `git lfs install` then clone the repository. If you already cloned it, pull the latest commit and run `git lfs pull` to download the large textures.
+2. Add the repository root to Unity Hub. Open it with **Unity 6000.6.0f1**, as recorded in [ProjectVersion.txt](ProjectSettings/ProjectVersion.txt). Unity resolves the dependencies in [Packages/manifest.json](Packages/manifest.json).
+3. Open [MicroLair_Graybox.unity](Assets/Scenes/MicroLair_Graybox.unity) by itself and press Play. [SampleScene.unity](Assets/Scenes/SampleScene.unity) contains the original gameplay setup.
 
-## Sample Scene controls
+## Controls
 
 | Input | Action |
 | --- | --- |
@@ -23,8 +23,8 @@ An unofficial third-person gameplay prototype in Unity. It includes a character 
 ## Project layout
 
 - [Assets/Scripts](Assets/Scripts) contains the character controller, camera, animation, hand IK, and shooting logic.
-- [Assets/Environment/MicroLair](Assets/Environment/MicroLair) contains the graybox meshes, materials, and editor tools.
-- [Documentation/MicroLair](Documentation/MicroLair) includes the [graybox notes](Documentation/MicroLair/graybox-scene.md), [layout validation](Documentation/MicroLair/graybox-validation.txt), and [structural plan](Documentation/MicroLair/structural-reconstruction.md).
+- [Assets/Environment/MicroLair](Assets/Environment/MicroLair) contains the Micro Lair meshes, materials, and editor tools.
+- [Documentation/MicroLair](Documentation/MicroLair) records the [gameplay setup](Documentation/MicroLair/gameplay-setup.md), [level layout](Documentation/MicroLair/revision-e.md), [concrete floor](Documentation/MicroLair/concrete-floor.md), and [steel-mullion windows](Documentation/MicroLair/steel-mullion-windows.md).
 
 ## History
 
