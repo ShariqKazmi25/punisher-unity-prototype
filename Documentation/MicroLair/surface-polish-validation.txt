@@ -1,0 +1,21 @@
+PASS: 120 environment renderers use scene-specific material variants; original materials preserved.
+PASS: existing structural meshes and colliders unchanged.
+Two 512px baked HDR box-projected reflection probes. Cool fluorescent hub, warm aisle pendants, muted foreground.
+ACES and subtle bloom on graybox cameras. Six window rows, doors and gameplay scripts unchanged.
+PASS concrete floor - Lair/_BaseMap: 8192x8192
+PASS concrete floor - Lair/_BumpMap: 8192x8192
+PASS concrete floor - Lair/_MetallicGlossMap: 8192x8192
+PASS concrete floor - Lair/_ParallaxMap: 8192x8192
+PASS concrete_wall_006 - Lair/_BaseMap: 4096x4096
+PASS concrete_wall_006 - Lair/_BumpMap: 4096x4096
+PASS concrete_wall_006 - Lair/_MetallicGlossMap: 4096x4096
+PASS concrete_wall_006 - Lair/_ParallaxMap: 4096x4096
+PASS brushed concrete - Lair/_BaseMap: 4096x4096
+PASS brushed concrete - Lair/_BumpMap: 4096x4096
+PASS brushed concrete - Lair/_MetallicGlossMap: 4096x4096
+PASS brushed concrete - Lair/_ParallaxMap: 4096x4096
+PASS rusty metal - Lair/_BaseMap: 4096x4096
+PASS rusty metal - Lair/_BumpMap: 4096x4096
+PASS rusty metal - Lair/_MetallicGlossMap: 4096x4096
+
+FINAL PASS: 27 lights, 8 shadowed; 3 persistent Volume overrides; 2 persistent HDR cubemap references. No new console errors since cursor 21. Existing Unity AI authentication error is unrelated.

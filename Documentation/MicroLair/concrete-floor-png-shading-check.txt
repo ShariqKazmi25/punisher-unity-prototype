@@ -1,0 +1,21 @@
+LowerFloor_22x31p38m_CharacterScale: 0 invalid tangent frames of 26
+Hub_ContinuousCurve_6p4m_CharacterScale: 0 invalid tangent frames of 216
+LivingBay_RoundedInnerCorner: 0 invalid tangent frames of 98
+ControlBay_RoundedInnerCorner: 0 invalid tangent frames of 98
+Left_UpperAisle_2p4m: 0 invalid tangent frames of 26
+Right_UpperAisle_2p4m: 0 invalid tangent frames of 26
+Step_01: 0 invalid tangent frames of 26
+Step_02: 0 invalid tangent frames of 26
+Step_03: 0 invalid tangent frames of 26
+Step_04: 0 invalid tangent frames of 26
+Step_05: 0 invalid tangent frames of 26
+Step_06: 0 invalid tangent frames of 26
+Step_01: 0 invalid tangent frames of 26
+Step_02: 0 invalid tangent frames of 26
+Step_03: 0 invalid tangent frames of 26
+Step_04: 0 invalid tangent frames of 26
+Step_05: 0 invalid tangent frames of 26
+Step_06: 0 invalid tangent frames of 26
+RearDeck_Connection_Assumed: 0 invalid tangent frames of 26
+Mean absolute RGB difference with normal/height enabled: 0.004286
+Material sphere uses temporary controlled lights; graybox lights and geometry are unchanged.

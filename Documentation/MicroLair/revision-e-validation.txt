@@ -1,0 +1,8 @@
+PASS Saved mesh assets, both UV sets, material slots, unit scales and matching colliders.
+PASS 45 lower-floor and 212 upper-corridor floor, player capsule and roof/headroom samples.
+PASS All 12 unchanged stair treads, clear doorways, long upper shooting lanes and widened side-wall shot collision.
+PASS Both former side trenches are flush with the upper deck, meet the walls and continue through the rear connection. Lower front apron remains intact.
+PASS Round pillars, asymmetrical front placement, original player scale and existing ceiling height.
+Lower floor: 9.234 x 13.170 Unity units = 22 x 31.3776 nominal m.
+Front floor-edge to stair foot: 8.20 nominal m (was 5.20). Upper aisle run: 20.3136 nominal m (was 18.33).
+Edit-time physics validation; gameplay input and shooting scripts unchanged.

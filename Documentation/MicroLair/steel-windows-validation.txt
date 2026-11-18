@@ -1,0 +1,12 @@
+CentreHub: path 34.14 design m; 20 vertical members; 6 pane rows; raised floor 1.02, header top 6.25 design m.
+  Hub_LeftEntrance: clear 1.85 x 3.60 design m (0.776 x 1.511 Unity units), centre X/Z -3.150/0.077; no sill in opening.
+  Hub_RightEntrance: clear 1.85 x 3.60 design m (0.776 x 1.511 Unity units), centre X/Z 3.150/0.077; no sill in opening.
+LeftBay: path 19.52 design m; 12 vertical members; 6 pane rows; raised floor 1.02, header top 6.25 design m.
+  LeftBay_Entrance: clear 1.85 x 3.60 design m (0.776 x 1.511 Unity units), centre X/Z -5.650/0.077; no sill in opening.
+RightBay: path 19.52 design m; 12 vertical members; 6 pane rows; raised floor 1.02, header top 6.25 design m.
+  RightBay_Entrance: clear 1.85 x 3.60 design m (0.776 x 1.511 Unity units), centre X/Z 5.650/0.077; no sill in opening.
+PASS 65 editable bar/rail mesh objects; 606 rectangular steel members; 7272 triangles. All have saved UV0/UV1, tangents, rusty metal and exact bar-only MeshColliders.
+PASS 108 actual-player capsule samples through four doors against the full environment, and 118 stair/aisle samples against the new frames.
+PASS Ray tests through empty panes and into actual posts on all three enclosures. Rear ends remain open to the shared rear deck; existing building doorways are untouched.
+Player capsule 0.770 high, 0.360 wide in Unity units; design-to-world scale 0.41971930.
+Larger-pane revision: 40mm mullions, 55mm main posts/jambs, 28mm intermediate crossbars; vertical spacing <=2.00 design m and 6 pane rows in the current shell. Doors 1.85 x 3.60 design m. Standing-player probes hit real crossbars at regular panes.

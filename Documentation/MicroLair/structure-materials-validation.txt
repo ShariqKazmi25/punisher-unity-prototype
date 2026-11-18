@@ -1,0 +1,8 @@
+PASS Assets/Materials/concrete_wall_006.mat: 4K color, OpenGL normal, AO/smoothness and height; opaque, nonmetallic URP Lit.
+PASS Assets/Materials/brushed concrete.mat: 4K color, OpenGL normal, AO/smoothness and height; opaque, nonmetallic URP Lit.
+PASS concrete_wall_006: 9 wall sections, 14 ceiling/fascia/recess sections, 9 beams; 94 material slots.
+PASS brushed concrete: 4 pillars; 12 material slots.
+PASS Existing floor/stair/player materials and geometry unchanged. Curved upper trim uses a separate continuous-UV mesh; other mesh references are retained and collision shapes are unchanged.
+PASS Valid UVs and tangents on every target mesh. All slots covered, including beam/ceiling undersides and pillar caps.
+Tiling uses existing nominal-meter UVs: wall/ceiling/beam texture repeats every 4 design metres; pillar texture every 2 design metres.
+Source PNGs are retained unmodified; no lighting or gameplay changes.

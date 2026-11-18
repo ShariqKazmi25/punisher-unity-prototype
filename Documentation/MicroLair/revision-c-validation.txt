@@ -1,0 +1,9 @@
+PASS Saved structural mesh assets, UV0/UV1, material slots, colliders and unit scales.
+PASS All 12 unchanged stair treads meet the upper deck.
+PASS 102 floor, actual-player capsule and overhead-clearance samples along both extended aisles.
+PASS Unobstructed long shooting lanes, open front/rear doorways and side-wall projectile collision.
+PASS Pillars remain round and reach the raised beams; player scale remains unchanged.
+World units per nominal meter: 0.419719. Floor: 7.555 x 11.030 units (18 x 26.28 nominal m).
+Ceiling underside: 2.854; beam underside: 2.623; raised floor: 0.428 units.
+Upper-floor ceiling clearance: 2.426; under-beam clearance: 2.195 units; character height: 0.770.
+Validation uses edit-time physics probes; existing gameplay input/shooting scripts were not changed.

@@ -1,6 +1,8 @@
 # Micro’s lair graybox scene
 
-Open `Assets/Scenes/MicroLair_Graybox.unity` in Unity. This is a separate scene; the existing character/gameplay scene is not included or replaced.
+**Updated 12 November 2026:** the current scene uses [revision E](revision-e.md): the upper floor now extends to both side walls, filling the former side trenches. Revision D's larger lower front area and longer corridors, and revision C's taller ceiling, are retained. Dimensions below describe the initial layout; revision D gives the current footprint.
+
+Open `Assets/Scenes/MicroLair_Graybox.unity` in Unity. This separate scene now includes a copy of the complete SampleScene Punisher gameplay rig. The original SampleScene is unchanged. See [gameplay setup](gameplay-setup.md) for controls.
 
 ## Included
 
@@ -28,7 +30,7 @@ The five neutral gray URP Lit materials are in `Assets/Environment/MicroLair/Mat
 
 Use **Tools → Micro Lair → Toggle Ceiling Visibility (Scene View)** to inspect the interior from above without disabling the ceiling in Game view. Alternatively, use the Hierarchy visibility controls. `05_Ceilings` contains the roof/recesses; the large beams are in `04_PillarsAndBeams`.
 
-The inspection camera does not have a movement controller. Navigate using the Scene view, or add your player to this separate scene later. The stairs use real tread colliders; traversal with the project's character controller still needs a play test after that character is added.
+The fixed inspection camera is disabled for gameplay; its neutral work lights remain enabled. The `Gameplay_Punisher` root contains the character, weapon and third-person camera. The stairs use real tread colliders.
 
 ## Assumptions retained from the plan
 

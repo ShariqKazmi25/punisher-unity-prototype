@@ -1,0 +1,11 @@
+PASS URP Lit material: Assets/Materials/concrete floor.mat
+PASS 8192px color (sRGB), OpenGL normal (normal-map import), and packed linear data.
+Packed data: R = 0 metallic, G = AO, B = 0, A = 1 - roughness. Smoothness multiplier = 1.
+Tiling = (0.5, 0.5) on existing nominal-meter UVs; one repeat per two nominal meters.
+PASS 19 floor/platform/stair renderers, 57 material slots.
+  01_LowerFloor: 1
+  02_RaisedPlatforms: 5
+  03_Stairs: 12
+  08_ProvisionalRearConnection: 1
+PASS Target meshes and colliders unchanged; all other scene renderer materials unchanged.
+PASS Scene saved; source SampleScene was not opened or changed by this operation.

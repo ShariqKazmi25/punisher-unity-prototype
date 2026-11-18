@@ -1,0 +1,1 @@
+PASS sampled packed channels from matching PNG sources. Smoothness 0.0000..0.2078; AO 0.7490..1.0000. R/B are zero.

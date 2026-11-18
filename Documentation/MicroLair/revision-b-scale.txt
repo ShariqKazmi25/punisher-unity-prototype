@@ -1,0 +1,8 @@
+Gameplay model measurement (world-space baked skin vertices)
+survivor_biker_clothes size=(0.3044, 0.3564, 0.1931) min=(-4.6363, 1.5647, -3.4114) max=(-4.3319, 1.9211, -3.2183)
+survivor_biker_hair size=(0.0757, 0.0648, 0.1113) min=(-4.5163, 1.9510, -3.3608) max=(-4.4406, 2.0158, -3.2495)
+survivor_biker_reference size=(0.2484, 0.7656, 0.2637) min=(-4.6249, 1.2477, -3.3871) max=(-4.3766, 2.0132, -3.1234)
+survivor_biker_tools size=(0.1887, 0.1453, 0.1493) min=(-4.5878, 1.5787, -3.3848) max=(-4.3991, 1.7240, -3.2355)
+Measured character height=0.76809 Unity units
+Controller height=0.77; radius=0.18; stepOffset=0.3
+World units per nominal meter (1.83 m adult)=0.419719

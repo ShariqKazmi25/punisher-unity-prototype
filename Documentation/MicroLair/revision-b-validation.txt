@@ -1,0 +1,7 @@
+PASS
+Saved mesh assets, UVs, materials and colliders checked.
+Both six-step flights meet the upper floor. Actual 0.77 x 0.36 unit controller clears both upper aisles. Door gaps clear.
+Continuous elliptical hub front and matching upper fascia; asymmetrical front pillar coordinates verified.
+World units per nominal meter: 0.419719
+Nominal hub width: 6.4 m; side bays: 3.1 m each; aisle width: 2.4 m.
+Gameplay controller movement has not been play-tested in this scene.

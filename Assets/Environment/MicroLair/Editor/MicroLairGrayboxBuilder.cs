@@ -333,7 +333,7 @@ public static class MicroLairGrayboxBuilder
 
     // Convex CCW footprints in XZ. Top, sides, underside are separate material slots.
     // UV0 uses one repeat per meter. UV1 is a separate non-overlapping lightmap unwrap.
-    private static Mesh Prism(List<Vector2> points, float bottom, float top, bool smoothSides = false)
+    public static Mesh Prism(List<Vector2> points, float bottom, float top, bool smoothSides = false)
     {
         var vertices = new List<Vector3>();
         var uv = new List<Vector2>();
@@ -423,6 +423,9 @@ public static class MicroLairGrayboxBuilder
         if (SceneManager.GetActiveScene().path != ScenePath)
             throw new InvalidOperationException("Open the graybox scene before validating.");
         var root = FindRoot();
+        if (root.transform.Find(MicroLairRevisionD.MarkerName)) { MicroLairRevisionD.Validate(); return; }
+        if (root.transform.Find(MicroLairRevisionC.MarkerName)) { MicroLairRevisionC.Validate(); return; }
+        if (root.transform.Find(MicroLairRevisionB.MarkerName)) { MicroLairRevisionB.Validate(); return; }
         var filters = root.GetComponentsInChildren<MeshFilter>(true);
         var checks = new List<string>();
         foreach (var filter in filters)
@@ -499,7 +502,11 @@ public static class MicroLairGrayboxBuilder
     public static void CapturePreviews()
     {
         var root = FindRoot();
+        if (root.transform.Find(MicroLairRevisionD.MarkerName)) { MicroLairRevisionD.CapturePreviews(); return; }
+        if (root.transform.Find(MicroLairRevisionC.MarkerName)) { MicroLairRevisionC.CapturePreviews(); return; }
         var camera = root.GetComponentInChildren<Camera>();
+        var revisionScale = root.transform.Find(MicroLairRevisionB.MarkerName);
+        float s = revisionScale ? revisionScale.localScale.x : 1f;
         var position = camera.transform.position;
         var rotation = camera.transform.rotation;
         bool wasOrthographic = camera.orthographic;
@@ -517,14 +524,14 @@ public static class MicroLairGrayboxBuilder
             roofs.SetActive(false);
             front.SetActive(false);
             east.SetActive(false);
-            camera.transform.position = new Vector3(14, 17, -21);
-            camera.transform.LookAt(new Vector3(0, 1, 0));
+            camera.transform.position = new Vector3(14, 17, -21) * s;
+            camera.transform.LookAt(new Vector3(0, 1, 0) * s);
             camera.orthographic = true;
-            camera.orthographicSize = 11.5f;
+            camera.orthographicSize = 11.5f * s;
             RenderPreview(camera, "graybox-cutaway.png");
-            camera.transform.position = new Vector3(0, 24, 0);
+            camera.transform.position = new Vector3(0, 24, 0) * s;
             camera.transform.rotation = Quaternion.Euler(90, 0, 0);
-            camera.orthographicSize = 10;
+            camera.orthographicSize = 10 * s;
             RenderPreview(camera, "graybox-top.png");
         }
         finally

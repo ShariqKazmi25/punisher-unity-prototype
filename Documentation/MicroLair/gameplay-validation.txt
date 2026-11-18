@@ -1,0 +1,10 @@
+PASS All copied components exist; all scene-object references stay in MicroLair_Graybox.
+PASS CharacterController, humanoid Animator and animation controller assigned.
+PASS Movement and Cinemachine target linked to copied rig.
+PASS Shooting references assigned to copied rig.
+PASS Complete AR15 hierarchy included.
+PASS Editor aim preview off so normal gameplay input works.
+PASS One active MainCamera in destination.
+PASS One active AudioListener in destination.
+PASS Indoor camera obstacle avoidance enabled.
+Player spawn: (1.84677, 0.02500, -2.66522); scale: (1.00, 1.00, 1.00); capsule height: 0.77000.

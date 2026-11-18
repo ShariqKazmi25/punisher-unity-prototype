@@ -1,0 +1,1 @@
+ARM to URP: R=metallic, G=AO, B=0, A=1-roughness. Sample metallic 0.000..0.000; smoothness 0.051..0.275. Metallic variation is preserved.
